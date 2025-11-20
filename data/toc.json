@@ -1,0 +1,4019 @@
+{
+  "sections": [
+    {
+      "title": "Summary",
+      "items": []
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "AI",
+          "path": "AI/README.md",
+          "items": [
+            {
+              "title": "AI Assisted Fuzzing and Vulnerability Discovery",
+              "path": "AI/AI-Assisted-Fuzzing-and-Vulnerability-Discovery.md",
+              "items": [
+                {
+                  "title": "AI Deep Learning",
+                  "path": "AI/AI-Deep-Learning.md"
+                },
+                {
+                  "title": "AI MCP Servers",
+                  "path": "AI/AI-MCP-Servers.md"
+                },
+                {
+                  "title": "AI Model Data Preparation and Evaluation",
+                  "path": "AI/AI-Model-Data-Preparation-and-Evaluation.md"
+                },
+                {
+                  "title": "AI Models RCE",
+                  "path": "AI/AI-Models-RCE.md"
+                },
+                {
+                  "title": "AI Prompts",
+                  "path": "AI/AI-Prompts.md"
+                },
+                {
+                  "title": "AI Reinforcement Learning Algorithms",
+                  "path": "AI/AI-Reinforcement-Learning-Algorithms.md"
+                },
+                {
+                  "title": "AI Risk Frameworks",
+                  "path": "AI/AI-Risk-Frameworks.md"
+                },
+                {
+                  "title": "AI Supervised Learning Algorithms",
+                  "path": "AI/AI-Supervised-Learning-Algorithms.md"
+                },
+                {
+                  "title": "AI Unsupervised Learning Algorithms",
+                  "path": "AI/AI-Unsupervised-Learning-Algorithms.md"
+                },
+                {
+                  "title": "AI LLM Architecture",
+                  "path": "AI/AI-llm-architecture/README.md",
+                  "items": [
+                    {
+                      "title": "0. Basic LLM Concepts",
+                      "path": "AI/AI-llm-architecture/0.-basic-llm-concepts.md",
+                      "items": [
+                        {
+                          "title": "1. Tokenizing",
+                          "path": "AI/AI-llm-architecture/1.-tokenizing.md"
+                        },
+                        {
+                          "title": "2. Data Sampling",
+                          "path": "AI/AI-llm-architecture/2.-data-sampling.md"
+                        },
+                        {
+                          "title": "3. Token Embeddings",
+                          "path": "AI/AI-llm-architecture/3.-token-embeddings.md"
+                        },
+                        {
+                          "title": "4. Attention Mechanisms",
+                          "path": "AI/AI-llm-architecture/4.-attention-mechanisms.md"
+                        },
+                        {
+                          "title": "5. LLM Architecture",
+                          "path": "AI/AI-llm-architecture/5.-llm-architecture.md"
+                        },
+                        {
+                          "title": "6. Pre-training and Loading Models",
+                          "path": "AI/AI-llm-architecture/6.-pre-training-and-loading-models.md"
+                        },
+                        {
+                          "title": "7.0. Lora Improvements in Fine Tuning",
+                          "path": "AI/AI-llm-architecture/7.0.-lora-improvements-in-fine-tuning.md"
+                        },
+                        {
+                          "title": "7.1. Fine Tuning for Classification",
+                          "path": "AI/AI-llm-architecture/7.1.-fine-tuning-for-classification.md"
+                        },
+                        {
+                          "title": "7.2. Fine Tuning to Follow Instructions",
+                          "path": "AI/AI-llm-architecture/7.2.-fine-tuning-to-follow-instructions.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Banners",
+      "items": [
+        {
+          "title": "Hacktricks Training",
+          "path": "banners/hacktricks-training.md"
+        }
+      ]
+    },
+    {
+      "title": "Binary Exploitation",
+      "items": [
+        {
+          "title": "Array Indexing",
+          "path": "binary-exploitation/array-indexing.md"
+        },
+        {
+          "title": "Chrome Exploiting",
+          "path": "binary-exploitation/chrome-exploiting.md"
+        },
+        {
+          "title": "Common Exploiting Problems",
+          "path": "binary-exploitation/common-exploiting-problems.md"
+        },
+        {
+          "title": "FreeBSD Ptrace RFI Vm Map Prot Exec Bypass Ps5",
+          "path": "binary-exploitation/freebsd-ptrace-rfi-vm_map-prot_exec-bypass-ps5.md"
+        },
+        {
+          "title": "Integer Overflow And Underflow",
+          "path": "binary-exploitation/integer-overflow-and-underflow.md"
+        },
+        {
+          "title": "Windows Exploiting Basic Guide Oscp Lvl",
+          "path": "binary-exploitation/windows-exploiting-basic-guide-oscp-lvl.md"
+        },
+        {
+          "title": "Arbitrary Write 2 Exec",
+          "path": "binary-exploitation/arbitrary-write-2-exec/README.md",
+          "items": [
+            {
+              "title": "Aw2exec Got Plt",
+              "path": "binary-exploitation/arbitrary-write-2-exec/aw2exec-got-plt.md",
+              "items": [
+                {
+                  "title": "Aw2exec Sips Icc Profile",
+                  "path": "binary-exploitation/arbitrary-write-2-exec/aw2exec-sips-icc-profile.md"
+                },
+                {
+                  "title": "Aw2exec __malloc_hook",
+                  "path": "binary-exploitation/arbitrary-write-2-exec/aw2exec-__malloc_hook.md"
+                },
+                {
+                  "title": "Www2exec .dtors And .fini_array",
+                  "path": "binary-exploitation/arbitrary-write-2-exec/www2exec-.dtors-and-.fini_array.md"
+                },
+                {
+                  "title": "Www2exec Atexit",
+                  "path": "binary-exploitation/arbitrary-write-2-exec/www2exec-atexit.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Basic Stack Binary Exploitation Methodology",
+          "path": "binary-exploitation/basic-stack-binary-exploitation-methodology/README.md",
+          "items": [
+            {
+              "title": "Elf Tricks",
+              "path": "binary-exploitation/basic-stack-binary-exploitation-methodology/elf-tricks.md",
+              "items": [
+                {
+                  "title": "Tools",
+                  "path": "binary-exploitation/basic-stack-binary-exploitation-methodology/tools/README.md",
+                  "items": [
+                    {
+                      "title": "Pwntools",
+                      "path": "binary-exploitation/basic-stack-binary-exploitation-methodology/tools/pwntools.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common Binary Protections And Bypasses",
+          "path": "binary-exploitation/common-binary-protections-and-bypasses/README.md",
+          "items": [
+            {
+              "title": "Cet And Shadow Stack",
+              "path": "binary-exploitation/common-binary-protections-and-bypasses/cet-and-shadow-stack.md",
+              "items": [
+                {
+                  "title": "Libc Protections",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/libc-protections.md"
+                },
+                {
+                  "title": "Memory Tagging Extension Mte",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/memory-tagging-extension-mte.md"
+                },
+                {
+                  "title": "No Exec Nx",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/no-exec-nx.md"
+                },
+                {
+                  "title": "Relro",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/relro.md"
+                },
+                {
+                  "title": "ASLR",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/aslr/README.md",
+                  "items": [
+                    {
+                      "title": "Ret2plt",
+                      "path": "binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2plt.md",
+                      "items": [
+                        {
+                          "title": "Ret2ret",
+                          "path": "binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2ret.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "PIE",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/pie/README.md",
+                  "items": [
+                    {
+                      "title": "Bypassing Canary And Pie",
+                      "path": "binary-exploitation/common-binary-protections-and-bypasses/pie/bypassing-canary-and-pie.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Stack Canaries",
+                  "path": "binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/README.md",
+                  "items": [
+                    {
+                      "title": "Bf Forked Stack Canaries",
+                      "path": "binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/bf-forked-stack-canaries.md",
+                      "items": [
+                        {
+                          "title": "Print Stack Canary",
+                          "path": "binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/print-stack-canary.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Format Strings",
+          "path": "binary-exploitation/format-strings/README.md",
+          "items": [
+            {
+              "title": "Format Strings Arbitrary Read Example",
+              "path": "binary-exploitation/format-strings/format-strings-arbitrary-read-example.md",
+              "items": [
+                {
+                  "title": "Format Strings Template",
+                  "path": "binary-exploitation/format-strings/format-strings-template.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IOS Exploiting",
+          "path": "binary-exploitation/ios-exploiting/README.md",
+          "items": [
+            {
+              "title": "CVE 2020 27950 Mach Msg Trailer T",
+              "path": "binary-exploitation/ios-exploiting/CVE-2020-27950-mach_msg_trailer_t.md",
+              "items": [
+                {
+                  "title": "CVE 2021 30807 IOMobileFrameBuffer",
+                  "path": "binary-exploitation/ios-exploiting/CVE-2021-30807-IOMobileFrameBuffer.md"
+                },
+                {
+                  "title": "Imessage Media Parser Zero Click Coreaudio Pac Bypass",
+                  "path": "binary-exploitation/ios-exploiting/imessage-media-parser-zero-click-coreaudio-pac-bypass.md"
+                },
+                {
+                  "title": "IOS Corellium",
+                  "path": "binary-exploitation/ios-exploiting/ios-corellium.md"
+                },
+                {
+                  "title": "IOS Example Heap Exploit",
+                  "path": "binary-exploitation/ios-exploiting/ios-example-heap-exploit.md"
+                },
+                {
+                  "title": "IOS Physical Uaf Iosurface",
+                  "path": "binary-exploitation/ios-exploiting/ios-physical-uaf-iosurface.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Libc Heap",
+          "path": "binary-exploitation/libc-heap/README.md",
+          "items": [
+            {
+              "title": "Bins And Memory Allocations",
+              "path": "binary-exploitation/libc-heap/bins-and-memory-allocations.md",
+              "items": [
+                {
+                  "title": "Double Free",
+                  "path": "binary-exploitation/libc-heap/double-free.md"
+                },
+                {
+                  "title": "Fast Bin Attack",
+                  "path": "binary-exploitation/libc-heap/fast-bin-attack.md"
+                },
+                {
+                  "title": "Heap Overflow",
+                  "path": "binary-exploitation/libc-heap/heap-overflow.md"
+                },
+                {
+                  "title": "House Of Einherjar",
+                  "path": "binary-exploitation/libc-heap/house-of-einherjar.md"
+                },
+                {
+                  "title": "House Of Force",
+                  "path": "binary-exploitation/libc-heap/house-of-force.md"
+                },
+                {
+                  "title": "House Of Lore",
+                  "path": "binary-exploitation/libc-heap/house-of-lore.md"
+                },
+                {
+                  "title": "House Of Orange",
+                  "path": "binary-exploitation/libc-heap/house-of-orange.md"
+                },
+                {
+                  "title": "House Of Rabbit",
+                  "path": "binary-exploitation/libc-heap/house-of-rabbit.md"
+                },
+                {
+                  "title": "House Of Roman",
+                  "path": "binary-exploitation/libc-heap/house-of-roman.md"
+                },
+                {
+                  "title": "House Of Spirit",
+                  "path": "binary-exploitation/libc-heap/house-of-spirit.md"
+                },
+                {
+                  "title": "Large Bin Attack",
+                  "path": "binary-exploitation/libc-heap/large-bin-attack.md"
+                },
+                {
+                  "title": "Off By One Overflow",
+                  "path": "binary-exploitation/libc-heap/off-by-one-overflow.md"
+                },
+                {
+                  "title": "Overwriting A Freed Chunk",
+                  "path": "binary-exploitation/libc-heap/overwriting-a-freed-chunk.md"
+                },
+                {
+                  "title": "Tcache Bin Attack",
+                  "path": "binary-exploitation/libc-heap/tcache-bin-attack.md"
+                },
+                {
+                  "title": "Unlink Attack",
+                  "path": "binary-exploitation/libc-heap/unlink-attack.md"
+                },
+                {
+                  "title": "Unsorted Bin Attack",
+                  "path": "binary-exploitation/libc-heap/unsorted-bin-attack.md"
+                },
+                {
+                  "title": "Heap Memory Functions",
+                  "path": "binary-exploitation/libc-heap/heap-memory-functions/README.md",
+                  "items": [
+                    {
+                      "title": "Free",
+                      "path": "binary-exploitation/libc-heap/heap-memory-functions/free.md",
+                      "items": [
+                        {
+                          "title": "Heap Functions Security Checks",
+                          "path": "binary-exploitation/libc-heap/heap-memory-functions/heap-functions-security-checks.md"
+                        },
+                        {
+                          "title": "Malloc And Sysmalloc",
+                          "path": "binary-exploitation/libc-heap/heap-memory-functions/malloc-and-sysmalloc.md"
+                        },
+                        {
+                          "title": "Unlink",
+                          "path": "binary-exploitation/libc-heap/heap-memory-functions/unlink.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Use After Free",
+                  "path": "binary-exploitation/libc-heap/use-after-free/README.md",
+                  "items": [
+                    {
+                      "title": "First Fit",
+                      "path": "binary-exploitation/libc-heap/use-after-free/first-fit.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Linux Kernel Exploitation",
+          "path": "binary-exploitation/linux-kernel-exploitation/README.md",
+          "items": [
+            {
+              "title": "Ksmbd Streams Xattr Oob Write CVE 2025 37947",
+              "path": "binary-exploitation/linux-kernel-exploitation/ksmbd-streams_xattr-oob-write-cve-2025-37947.md",
+              "items": [
+                {
+                  "title": "Posix Cpu Timers Toctou CVE 2025 38352",
+                  "path": "binary-exploitation/linux-kernel-exploitation/posix-cpu-timers-toctou-cve-2025-38352.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ROP Return Oriented Programing",
+          "path": "binary-exploitation/rop-return-oriented-programing/README.md",
+          "items": [
+            {
+              "title": "Brop Blind Return Oriented Programming",
+              "path": "binary-exploitation/rop-return-oriented-programing/brop-blind-return-oriented-programming.md",
+              "items": [
+                {
+                  "title": "Ret2csu",
+                  "path": "binary-exploitation/rop-return-oriented-programing/ret2csu.md"
+                },
+                {
+                  "title": "Ret2dlresolve",
+                  "path": "binary-exploitation/rop-return-oriented-programing/ret2dlresolve.md"
+                },
+                {
+                  "title": "Ret2esp Ret2reg",
+                  "path": "binary-exploitation/rop-return-oriented-programing/ret2esp-ret2reg.md"
+                },
+                {
+                  "title": "Ret2vdso",
+                  "path": "binary-exploitation/rop-return-oriented-programing/ret2vdso.md"
+                },
+                {
+                  "title": "Ret2lib",
+                  "path": "binary-exploitation/rop-return-oriented-programing/ret2lib/README.md",
+                  "items": [
+                    {
+                      "title": "One Gadget",
+                      "path": "binary-exploitation/rop-return-oriented-programing/ret2lib/one-gadget.md",
+                      "items": [
+                        {
+                          "title": "Ret2lib + Printf Leak Arm64",
+                          "path": "binary-exploitation/rop-return-oriented-programing/ret2lib/ret2lib-+-printf-leak-arm64.md"
+                        },
+                        {
+                          "title": "Rop Leaking Libc Address",
+                          "path": "binary-exploitation/rop-return-oriented-programing/ret2lib/rop-leaking-libc-address/README.md",
+                          "items": [
+                            {
+                              "title": "Rop Leaking Libc Template",
+                              "path": "binary-exploitation/rop-return-oriented-programing/ret2lib/rop-leaking-libc-address/rop-leaking-libc-template.md"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Rop Syscall Execv",
+                  "path": "binary-exploitation/rop-return-oriented-programing/rop-syscall-execv/README.md",
+                  "items": [
+                    {
+                      "title": "Ret2syscall Arm64",
+                      "path": "binary-exploitation/rop-return-oriented-programing/rop-syscall-execv/ret2syscall-arm64.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Srop Sigreturn Oriented Programming",
+                  "path": "binary-exploitation/rop-return-oriented-programing/srop-sigreturn-oriented-programming/README.md",
+                  "items": [
+                    {
+                      "title": "Srop Arm64",
+                      "path": "binary-exploitation/rop-return-oriented-programing/srop-sigreturn-oriented-programming/srop-arm64.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stack Overflow",
+          "path": "binary-exploitation/stack-overflow/README.md",
+          "items": [
+            {
+              "title": "Pointer Redirecting",
+              "path": "binary-exploitation/stack-overflow/pointer-redirecting.md",
+              "items": [
+                {
+                  "title": "Stack Pivoting Ebp2ret Ebp Chaining",
+                  "path": "binary-exploitation/stack-overflow/stack-pivoting-ebp2ret-ebp-chaining.md"
+                },
+                {
+                  "title": "Uninitialized Variables",
+                  "path": "binary-exploitation/stack-overflow/uninitialized-variables.md"
+                },
+                {
+                  "title": "Windows Seh Overflow",
+                  "path": "binary-exploitation/stack-overflow/windows-seh-overflow.md"
+                },
+                {
+                  "title": "Ret2win",
+                  "path": "binary-exploitation/stack-overflow/ret2win/README.md",
+                  "items": [
+                    {
+                      "title": "Ret2win Arm64",
+                      "path": "binary-exploitation/stack-overflow/ret2win/ret2win-arm64.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Stack Shellcode",
+                  "path": "binary-exploitation/stack-overflow/stack-shellcode/README.md",
+                  "items": [
+                    {
+                      "title": "Stack Shellcode Arm64",
+                      "path": "binary-exploitation/stack-overflow/stack-shellcode/stack-shellcode-arm64.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Blockchain",
+      "items": [
+        {
+          "title": "Blockchain And Crypto Currencies",
+          "path": "blockchain/blockchain-and-crypto-currencies/README.md",
+          "items": [
+            {
+              "title": "Defi Amm Hook Precision",
+              "path": "blockchain/blockchain-and-crypto-currencies/defi-amm-hook-precision.md"
+            }
+          ]
+        },
+        {
+          "title": "Smart Contract Security",
+          "path": "blockchain/smart-contract-security/README.md",
+          "items": [
+            {
+              "title": "Mutation Testing With Slither",
+              "path": "blockchain/smart-contract-security/mutation-testing-with-slither.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Crypto And Stego",
+      "items": [
+        {
+          "title": "Certificates",
+          "path": "crypto-and-stego/certificates.md"
+        },
+        {
+          "title": "Cipher Block Chaining CBC MAC Priv",
+          "path": "crypto-and-stego/cipher-block-chaining-cbc-mac-priv.md"
+        },
+        {
+          "title": "Crypto CTFs Tricks",
+          "path": "crypto-and-stego/crypto-ctfs-tricks.md"
+        },
+        {
+          "title": "Electronic Code Book ECB",
+          "path": "crypto-and-stego/electronic-code-book-ecb.md"
+        },
+        {
+          "title": "Esoteric Languages",
+          "path": "crypto-and-stego/esoteric-languages.md"
+        },
+        {
+          "title": "Hash Length Extension Attack",
+          "path": "crypto-and-stego/hash-length-extension-attack.md"
+        },
+        {
+          "title": "Padding Oracle Priv",
+          "path": "crypto-and-stego/padding-oracle-priv.md"
+        },
+        {
+          "title": "RC4 Encrypt And Decrypt",
+          "path": "crypto-and-stego/rc4-encrypt-and-decrypt.md"
+        },
+        {
+          "title": "Stego Tricks",
+          "path": "crypto-and-stego/stego-tricks.md"
+        },
+        {
+          "title": "Cryptographic Algorithms",
+          "path": "crypto-and-stego/cryptographic-algorithms/README.md",
+          "items": [
+            {
+              "title": "Unpacking Binaries",
+              "path": "crypto-and-stego/cryptographic-algorithms/unpacking-binaries.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Generic Hacking",
+      "items": [
+        {
+          "title": "Archive Extraction Path Traversal",
+          "path": "generic-hacking/archive-extraction-path-traversal.md"
+        },
+        {
+          "title": "Brute Force",
+          "path": "generic-hacking/brute-force.md"
+        },
+        {
+          "title": "Esim Javacard Exploitation",
+          "path": "generic-hacking/esim-javacard-exploitation.md"
+        },
+        {
+          "title": "Exfiltration",
+          "path": "generic-hacking/exfiltration.md"
+        },
+        {
+          "title": "Search Exploits",
+          "path": "generic-hacking/search-exploits.md"
+        },
+        {
+          "title": "Tunneling And Port Forwarding",
+          "path": "generic-hacking/tunneling-and-port-forwarding.md"
+        },
+        {
+          "title": "Reverse Shells",
+          "path": "generic-hacking/reverse-shells/README.md",
+          "items": [
+            {
+              "title": "Expose Local To The Internet",
+              "path": "generic-hacking/reverse-shells/expose-local-to-the-internet.md",
+              "items": [
+                {
+                  "title": "Full Ttys",
+                  "path": "generic-hacking/reverse-shells/full-ttys.md"
+                },
+                {
+                  "title": "Linux",
+                  "path": "generic-hacking/reverse-shells/linux.md"
+                },
+                {
+                  "title": "Msfvenom",
+                  "path": "generic-hacking/reverse-shells/msfvenom.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Generic Methodologies And Resources",
+      "items": [
+        {
+          "title": "Pentesting Methodology",
+          "path": "generic-methodologies-and-resources/pentesting-methodology.md"
+        },
+        {
+          "title": "Threat Modeling",
+          "path": "generic-methodologies-and-resources/threat-modeling.md"
+        },
+        {
+          "title": "Basic Forensic Methodology",
+          "path": "generic-methodologies-and-resources/basic-forensic-methodology/README.md",
+          "items": [
+            {
+              "title": "Adaptixc2 Config Extraction And Ttps",
+              "path": "generic-methodologies-and-resources/basic-forensic-methodology/adaptixc2-config-extraction-and-ttps.md",
+              "items": [
+                {
+                  "title": "Anti Forensic Techniques",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/anti-forensic-techniques.md"
+                },
+                {
+                  "title": "Docker Forensics",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/docker-forensics.md"
+                },
+                {
+                  "title": "File Integrity Monitoring",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/file-integrity-monitoring.md"
+                },
+                {
+                  "title": "Image Acquisition And Mount",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/image-acquisition-and-mount.md"
+                },
+                {
+                  "title": "IOS Backup Forensics",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/ios-backup-forensics.md"
+                },
+                {
+                  "title": "Linux Forensics",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/linux-forensics.md"
+                },
+                {
+                  "title": "Malware Analysis",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/malware-analysis.md"
+                },
+                {
+                  "title": "Memory Dump Analysis",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/README.md",
+                  "items": [
+                    {
+                      "title": "Volatility Cheatsheet",
+                      "path": "generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Partitions File Systems Carving",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/partitions-file-systems-carving/README.md",
+                  "items": [
+                    {
+                      "title": "File Data Carving Recovery Tools",
+                      "path": "generic-methodologies-and-resources/basic-forensic-methodology/partitions-file-systems-carving/file-data-carving-recovery-tools.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pcap Inspection",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/README.md",
+                  "items": [
+                    {
+                      "title": "Dnscat Exfiltration",
+                      "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/dnscat-exfiltration.md",
+                      "items": [
+                        {
+                          "title": "Suricata And Iptables Cheatsheet",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/suricata-and-iptables-cheatsheet.md"
+                        },
+                        {
+                          "title": "USB Keystrokes",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/usb-keystrokes.md"
+                        },
+                        {
+                          "title": "Wifi Pcap Analysis",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wifi-pcap-analysis.md"
+                        },
+                        {
+                          "title": "Wireshark Tricks",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Specific Software File Type Tricks",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/README.md",
+                  "items": [
+                    {
+                      "title": ".pyc",
+                      "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/.pyc.md",
+                      "items": [
+                        {
+                          "title": "Browser Artifacts",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/browser-artifacts.md"
+                        },
+                        {
+                          "title": "Desofuscation Vbs Cscript.exe",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/desofuscation-vbs-cscript.exe.md"
+                        },
+                        {
+                          "title": "Discord Cache Forensics",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/discord-cache-forensics.md"
+                        },
+                        {
+                          "title": "Local Cloud Storage",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/local-cloud-storage.md"
+                        },
+                        {
+                          "title": "Mach O Entitlements And Ipsw Indexing",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/mach-o-entitlements-and-ipsw-indexing.md"
+                        },
+                        {
+                          "title": "Office File Analysis",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/office-file-analysis.md"
+                        },
+                        {
+                          "title": "PDF File Analysis",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/pdf-file-analysis.md"
+                        },
+                        {
+                          "title": "PNG Tricks",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/png-tricks.md"
+                        },
+                        {
+                          "title": "Structural File Format Exploit Detection",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/structural-file-format-exploit-detection.md"
+                        },
+                        {
+                          "title": "SVG Font Glyph Analysis And Web DRM Deobfuscation",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/svg-font-glyph-analysis-and-web-drm-deobfuscation.md"
+                        },
+                        {
+                          "title": "Video And Audio File Analysis",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/video-and-audio-file-analysis.md"
+                        },
+                        {
+                          "title": "Zips Tricks",
+                          "path": "generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/zips-tricks.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Windows Forensics",
+                  "path": "generic-methodologies-and-resources/basic-forensic-methodology/windows-forensics/README.md",
+                  "items": [
+                    {
+                      "title": "Interesting Windows Registry Keys",
+                      "path": "generic-methodologies-and-resources/basic-forensic-methodology/windows-forensics/interesting-windows-registry-keys.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "External Recon Methodology",
+          "path": "generic-methodologies-and-resources/external-recon-methodology/README.md",
+          "items": [
+            {
+              "title": "Github Leaked Secrets",
+              "path": "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md",
+              "items": [
+                {
+                  "title": "Wide Source Code Search",
+                  "path": "generic-methodologies-and-resources/external-recon-methodology/wide-source-code-search.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LUA",
+          "path": "generic-methodologies-and-resources/lua/README.md",
+          "items": [
+            {
+              "title": "Bypass LUA Sandboxes",
+              "path": "generic-methodologies-and-resources/lua/bypass-lua-sandboxes/README.md"
+            }
+          ]
+        },
+        {
+          "title": "Pentesting Network",
+          "path": "generic-methodologies-and-resources/pentesting-network/README.md",
+          "items": [
+            {
+              "title": "Dhcpv6",
+              "path": "generic-methodologies-and-resources/pentesting-network/dhcpv6.md",
+              "items": [
+                {
+                  "title": "Eigrp Attacks",
+                  "path": "generic-methodologies-and-resources/pentesting-network/eigrp-attacks.md"
+                },
+                {
+                  "title": "Glbp And Hsrp Attacks",
+                  "path": "generic-methodologies-and-resources/pentesting-network/glbp-and-hsrp-attacks.md"
+                },
+                {
+                  "title": "IDS Evasion",
+                  "path": "generic-methodologies-and-resources/pentesting-network/ids-evasion.md"
+                },
+                {
+                  "title": "Lateral VLAN Segmentation Bypass",
+                  "path": "generic-methodologies-and-resources/pentesting-network/lateral-vlan-segmentation-bypass.md"
+                },
+                {
+                  "title": "Network Protocols Explained Esp",
+                  "path": "generic-methodologies-and-resources/pentesting-network/network-protocols-explained-esp.md"
+                },
+                {
+                  "title": "Nmap Summary Esp",
+                  "path": "generic-methodologies-and-resources/pentesting-network/nmap-summary-esp.md"
+                },
+                {
+                  "title": "Pentesting IPv6",
+                  "path": "generic-methodologies-and-resources/pentesting-network/pentesting-ipv6.md"
+                },
+                {
+                  "title": "Spoofing LLMNR NBT NS MDNS DNS And WPAD And Relay Attacks",
+                  "path": "generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks.md"
+                },
+                {
+                  "title": "Spoofing SSDP And UPnP Devices",
+                  "path": "generic-methodologies-and-resources/pentesting-network/spoofing-ssdp-and-upnp-devices.md"
+                },
+                {
+                  "title": "Telecom Network Exploitation",
+                  "path": "generic-methodologies-and-resources/pentesting-network/telecom-network-exploitation.md"
+                },
+                {
+                  "title": "WebRTC DOS",
+                  "path": "generic-methodologies-and-resources/pentesting-network/webrtc-dos.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting Wifi",
+          "path": "generic-methodologies-and-resources/pentesting-wifi/README.md",
+          "items": [
+            {
+              "title": "Enable Nexmon Monitor And Injection On Android",
+              "path": "generic-methodologies-and-resources/pentesting-wifi/enable-nexmon-monitor-and-injection-on-android.md",
+              "items": [
+                {
+                  "title": "Evil Twin EAP TLS",
+                  "path": "generic-methodologies-and-resources/pentesting-wifi/evil-twin-eap-tls.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phishing Methodology",
+          "path": "generic-methodologies-and-resources/phishing-methodology/README.md",
+          "items": [
+            {
+              "title": "AI Agent Abuse Local AI CLI Tools And MCP",
+              "path": "generic-methodologies-and-resources/phishing-methodology/ai-agent-abuse-local-ai-cli-tools-and-mcp.md",
+              "items": [
+                {
+                  "title": "AI Agent Mode Phishing Abusing Hosted Agent Browsers",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/ai-agent-mode-phishing-abusing-hosted-agent-browsers.md"
+                },
+                {
+                  "title": "Clone A Website",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/clone-a-website.md"
+                },
+                {
+                  "title": "Detecting Phising",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/detecting-phising.md"
+                },
+                {
+                  "title": "Homograph Attacks",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/homograph-attacks.md"
+                },
+                {
+                  "title": "Mobile Phishing Malicious Apps",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/mobile-phishing-malicious-apps.md"
+                },
+                {
+                  "title": "Phishing Documents",
+                  "path": "generic-methodologies-and-resources/phishing-methodology/phishing-documents.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Python",
+          "path": "generic-methodologies-and-resources/python/README.md",
+          "items": [
+            {
+              "title": "Basic Python",
+              "path": "generic-methodologies-and-resources/python/basic-python.md",
+              "items": [
+                {
+                  "title": "Bruteforce Hash Few Chars",
+                  "path": "generic-methodologies-and-resources/python/bruteforce-hash-few-chars.md"
+                },
+                {
+                  "title": "Class Pollution Pythons Prototype Pollution",
+                  "path": "generic-methodologies-and-resources/python/class-pollution-pythons-prototype-pollution.md"
+                },
+                {
+                  "title": "Keras Model Deserialization RCE And Gadget Hunting",
+                  "path": "generic-methodologies-and-resources/python/keras-model-deserialization-rce-and-gadget-hunting.md"
+                },
+                {
+                  "title": "Pyscript",
+                  "path": "generic-methodologies-and-resources/python/pyscript.md"
+                },
+                {
+                  "title": "Python Internal Read Gadgets",
+                  "path": "generic-methodologies-and-resources/python/python-internal-read-gadgets.md"
+                },
+                {
+                  "title": "Venv",
+                  "path": "generic-methodologies-and-resources/python/venv.md"
+                },
+                {
+                  "title": "Web Requests",
+                  "path": "generic-methodologies-and-resources/python/web-requests.md"
+                },
+                {
+                  "title": "Bypass Python Sandboxes",
+                  "path": "generic-methodologies-and-resources/python/bypass-python-sandboxes/README.md",
+                  "items": [
+                    {
+                      "title": "Load Name Load Const Opcode Oob Read",
+                      "path": "generic-methodologies-and-resources/python/bypass-python-sandboxes/load_name-load_const-opcode-oob-read.md",
+                      "items": [
+                        {
+                          "title": "Reportlab Xhtml2pdf Triple Brackets Expression Evaluation RCE CVE 2023 33733",
+                          "path": "generic-methodologies-and-resources/python/bypass-python-sandboxes/reportlab-xhtml2pdf-triple-brackets-expression-evaluation-rce-cve-2023-33733.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hardware Physical Access",
+      "items": [
+        {
+          "title": "Escaping From GUI Applications",
+          "path": "hardware-physical-access/escaping-from-gui-applications.md"
+        },
+        {
+          "title": "Physical Attacks",
+          "path": "hardware-physical-access/physical-attacks.md"
+        },
+        {
+          "title": "Firmware Analysis",
+          "path": "hardware-physical-access/firmware-analysis/README.md",
+          "items": [
+            {
+              "title": "Android Mediatek Secure Boot Bl2 Ext Bypass El3",
+              "path": "hardware-physical-access/firmware-analysis/android-mediatek-secure-boot-bl2_ext-bypass-el3.md",
+              "items": [
+                {
+                  "title": "Bootloader Testing",
+                  "path": "hardware-physical-access/firmware-analysis/bootloader-testing.md"
+                },
+                {
+                  "title": "Firmware Integrity",
+                  "path": "hardware-physical-access/firmware-analysis/firmware-integrity.md"
+                },
+                {
+                  "title": "Synology Encrypted Archive Decryption",
+                  "path": "hardware-physical-access/firmware-analysis/synology-encrypted-archive-decryption.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Linux Hardening",
+      "items": [
+        {
+          "title": "Linux Basics",
+          "path": "linux-hardening/linux-basics.md"
+        },
+        {
+          "title": "Linux Environment Variables",
+          "path": "linux-hardening/linux-environment-variables.md"
+        },
+        {
+          "title": "Linux Privilege Escalation Checklist",
+          "path": "linux-hardening/linux-privilege-escalation-checklist.md"
+        },
+        {
+          "title": "Useful Linux Commands",
+          "path": "linux-hardening/useful-linux-commands.md"
+        },
+        {
+          "title": "Bypass Bash Restrictions",
+          "path": "linux-hardening/bypass-bash-restrictions/README.md",
+          "items": [
+            {
+              "title": "Bypass Fs Protections Read Only No Exec Distroless",
+              "path": "linux-hardening/bypass-bash-restrictions/bypass-fs-protections-read-only-no-exec-distroless/README.md",
+              "items": [
+                {
+                  "title": "Ddexec",
+                  "path": "linux-hardening/bypass-bash-restrictions/bypass-fs-protections-read-only-no-exec-distroless/ddexec.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Linux Post Exploitation",
+          "path": "linux-hardening/linux-post-exploitation/README.md",
+          "items": [
+            {
+              "title": "Pam Pluggable Authentication Modules",
+              "path": "linux-hardening/linux-post-exploitation/pam-pluggable-authentication-modules.md"
+            }
+          ]
+        },
+        {
+          "title": "Privilege Escalation",
+          "path": "linux-hardening/privilege-escalation/README.md",
+          "items": [
+            {
+              "title": "Android Rooting Frameworks Manager Auth Bypass Syscall Hook",
+              "path": "linux-hardening/privilege-escalation/android-rooting-frameworks-manager-auth-bypass-syscall-hook.md",
+              "items": [
+                {
+                  "title": "Cisco Vmanage",
+                  "path": "linux-hardening/privilege-escalation/cisco-vmanage.md"
+                },
+                {
+                  "title": "Containerd Ctr Privilege Escalation",
+                  "path": "linux-hardening/privilege-escalation/containerd-ctr-privilege-escalation.md"
+                },
+                {
+                  "title": "D Bus Enumeration And Command Injection Privilege Escalation",
+                  "path": "linux-hardening/privilege-escalation/d-bus-enumeration-and-command-injection-privilege-escalation.md"
+                },
+                {
+                  "title": "Electron Cef Chromium Debugger Abuse",
+                  "path": "linux-hardening/privilege-escalation/electron-cef-chromium-debugger-abuse.md"
+                },
+                {
+                  "title": "Escaping From Limited Bash",
+                  "path": "linux-hardening/privilege-escalation/escaping-from-limited-bash.md"
+                },
+                {
+                  "title": "Euid Ruid Suid",
+                  "path": "linux-hardening/privilege-escalation/euid-ruid-suid.md"
+                },
+                {
+                  "title": "Freeipa Pentesting",
+                  "path": "linux-hardening/privilege-escalation/freeipa-pentesting.md"
+                },
+                {
+                  "title": "Ld.so.conf Example",
+                  "path": "linux-hardening/privilege-escalation/ld.so.conf-example.md"
+                },
+                {
+                  "title": "Linux Active Directory",
+                  "path": "linux-hardening/privilege-escalation/linux-active-directory.md"
+                },
+                {
+                  "title": "Linux Capabilities",
+                  "path": "linux-hardening/privilege-escalation/linux-capabilities.md"
+                },
+                {
+                  "title": "Logstash",
+                  "path": "linux-hardening/privilege-escalation/logstash.md"
+                },
+                {
+                  "title": "Nfs No Root Squash Misconfiguration Pe",
+                  "path": "linux-hardening/privilege-escalation/nfs-no_root_squash-misconfiguration-pe.md"
+                },
+                {
+                  "title": "Payloads To Execute",
+                  "path": "linux-hardening/privilege-escalation/payloads-to-execute.md"
+                },
+                {
+                  "title": "Runc Privilege Escalation",
+                  "path": "linux-hardening/privilege-escalation/runc-privilege-escalation.md"
+                },
+                {
+                  "title": "Selinux",
+                  "path": "linux-hardening/privilege-escalation/selinux.md"
+                },
+                {
+                  "title": "Socket Command Injection",
+                  "path": "linux-hardening/privilege-escalation/socket-command-injection.md"
+                },
+                {
+                  "title": "Splunk Lpe And Persistence",
+                  "path": "linux-hardening/privilege-escalation/splunk-lpe-and-persistence.md"
+                },
+                {
+                  "title": "Ssh Forward Agent Exploitation",
+                  "path": "linux-hardening/privilege-escalation/ssh-forward-agent-exploitation.md"
+                },
+                {
+                  "title": "Vmware Tools Service Discovery Untrusted Search Path CVE 2025 41244",
+                  "path": "linux-hardening/privilege-escalation/vmware-tools-service-discovery-untrusted-search-path-cve-2025-41244.md"
+                },
+                {
+                  "title": "Wildcards Spare Tricks",
+                  "path": "linux-hardening/privilege-escalation/wildcards-spare-tricks.md"
+                },
+                {
+                  "title": "Write To Root",
+                  "path": "linux-hardening/privilege-escalation/write-to-root.md"
+                },
+                {
+                  "title": "Docker Security",
+                  "path": "linux-hardening/privilege-escalation/docker-security/README.md",
+                  "items": [
+                    {
+                      "title": "Abusing Docker Socket For Privilege Escalation",
+                      "path": "linux-hardening/privilege-escalation/docker-security/abusing-docker-socket-for-privilege-escalation.md",
+                      "items": [
+                        {
+                          "title": "Apparmor",
+                          "path": "linux-hardening/privilege-escalation/docker-security/apparmor.md"
+                        },
+                        {
+                          "title": "Authz And Authn Docker Access Authorization Plugin",
+                          "path": "linux-hardening/privilege-escalation/docker-security/authz-and-authn-docker-access-authorization-plugin.md"
+                        },
+                        {
+                          "title": "Cgroups",
+                          "path": "linux-hardening/privilege-escalation/docker-security/cgroups.md"
+                        },
+                        {
+                          "title": "Docker Privileged",
+                          "path": "linux-hardening/privilege-escalation/docker-security/docker-privileged.md"
+                        },
+                        {
+                          "title": "Seccomp",
+                          "path": "linux-hardening/privilege-escalation/docker-security/seccomp.md"
+                        },
+                        {
+                          "title": "Weaponizing Distroless",
+                          "path": "linux-hardening/privilege-escalation/docker-security/weaponizing-distroless.md"
+                        },
+                        {
+                          "title": "Docker Breakout Privilege Escalation",
+                          "path": "linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation/README.md",
+                          "items": [
+                            {
+                              "title": "Docker Release Agent Cgroups Escape",
+                              "path": "linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation/docker-release_agent-cgroups-escape.md",
+                              "items": [
+                                {
+                                  "title": "Release Agent Exploit Relative Paths To Pids",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation/release_agent-exploit-relative-paths-to-pids.md"
+                                },
+                                {
+                                  "title": "Sensitive Mounts",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/docker-breakout-privilege-escalation/sensitive-mounts.md"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Namespaces",
+                          "path": "linux-hardening/privilege-escalation/docker-security/namespaces/README.md",
+                          "items": [
+                            {
+                              "title": "Cgroup Namespace",
+                              "path": "linux-hardening/privilege-escalation/docker-security/namespaces/cgroup-namespace.md",
+                              "items": [
+                                {
+                                  "title": "Ipc Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/ipc-namespace.md"
+                                },
+                                {
+                                  "title": "Mount Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/mount-namespace.md"
+                                },
+                                {
+                                  "title": "Network Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/network-namespace.md"
+                                },
+                                {
+                                  "title": "Pid Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/pid-namespace.md"
+                                },
+                                {
+                                  "title": "Time Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/time-namespace.md"
+                                },
+                                {
+                                  "title": "User Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/user-namespace.md"
+                                },
+                                {
+                                  "title": "Uts Namespace",
+                                  "path": "linux-hardening/privilege-escalation/docker-security/namespaces/uts-namespace.md"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Interesting Groups Linux Pe",
+                  "path": "linux-hardening/privilege-escalation/interesting-groups-linux-pe/README.md",
+                  "items": [
+                    {
+                      "title": "Lxd Privilege Escalation",
+                      "path": "linux-hardening/privilege-escalation/interesting-groups-linux-pe/lxd-privilege-escalation.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Linux Kernel Exploitation",
+                  "path": "linux-hardening/privilege-escalation/linux-kernel-exploitation/README.md",
+                  "items": [
+                    {
+                      "title": "Posix Cpu Timers Toctou CVE 2025 38352",
+                      "path": "linux-hardening/privilege-escalation/linux-kernel-exploitation/posix-cpu-timers-toctou-cve-2025-38352.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MacOS Hardening",
+      "items": [
+        {
+          "title": "MacOS Auto Start Locations",
+          "path": "macos-hardening/macos-auto-start-locations.md"
+        },
+        {
+          "title": "MacOS Useful Commands",
+          "path": "macos-hardening/macos-useful-commands.md"
+        },
+        {
+          "title": "MacOS Red Teaming",
+          "path": "macos-hardening/macos-red-teaming/README.md",
+          "items": [
+            {
+              "title": "MacOS Keychain",
+              "path": "macos-hardening/macos-red-teaming/macos-keychain.md",
+              "items": [
+                {
+                  "title": "MacOS MDM",
+                  "path": "macos-hardening/macos-red-teaming/macos-mdm/README.md",
+                  "items": [
+                    {
+                      "title": "Enrolling Devices In Other Organisations",
+                      "path": "macos-hardening/macos-red-teaming/macos-mdm/enrolling-devices-in-other-organisations.md",
+                      "items": [
+                        {
+                          "title": "MacOS Serial Number",
+                          "path": "macos-hardening/macos-red-teaming/macos-mdm/macos-serial-number.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MacOS Security And Privilege Escalation",
+          "path": "macos-hardening/macos-security-and-privilege-escalation/README.md",
+          "items": [
+            {
+              "title": "MacOS Applefs",
+              "path": "macos-hardening/macos-security-and-privilege-escalation/macos-applefs.md",
+              "items": [
+                {
+                  "title": "MacOS Basic Objective C",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-basic-objective-c.md"
+                },
+                {
+                  "title": "MacOS Bypassing Firewalls",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-bypassing-firewalls.md"
+                },
+                {
+                  "title": "MacOS Defensive Apps",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-defensive-apps.md"
+                },
+                {
+                  "title": "MacOS Dyld Hijacking And Dyld Insert Libraries",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-dyld-hijacking-and-dyld_insert_libraries.md"
+                },
+                {
+                  "title": "MacOS File Extension Apps",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-file-extension-apps.md"
+                },
+                {
+                  "title": "MacOS GCD Grand Central Dispatch",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-gcd-grand-central-dispatch.md"
+                },
+                {
+                  "title": "MacOS Privilege Escalation",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-privilege-escalation.md"
+                },
+                {
+                  "title": "MacOS Protocols",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-protocols.md"
+                },
+                {
+                  "title": "MacOS Users",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-users.md"
+                },
+                {
+                  "title": "MacOS Apps Inspecting Debugging And Fuzzing",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/README.md",
+                  "items": [
+                    {
+                      "title": "Arm64 Basic Assembly",
+                      "path": "macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/arm64-basic-assembly.md",
+                      "items": [
+                        {
+                          "title": "Introduction To X64",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/introduction-to-x64.md"
+                        },
+                        {
+                          "title": "Objects In Memory",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-apps-inspecting-debugging-and-fuzzing/objects-in-memory.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "MacOS Files Folders And Binaries",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/README.md",
+                  "items": [
+                    {
+                      "title": "MacOS Bundles",
+                      "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-bundles.md",
+                      "items": [
+                        {
+                          "title": "MacOS Installers Abuse",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-installers-abuse.md"
+                        },
+                        {
+                          "title": "MacOS Memory Dumping",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-memory-dumping.md"
+                        },
+                        {
+                          "title": "MacOS Sensitive Locations",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/macos-sensitive-locations.md"
+                        },
+                        {
+                          "title": "Universal Binaries And Mach O Format",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-files-folders-and-binaries/universal-binaries-and-mach-o-format.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "MacOS Proces Abuse",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/README.md",
+                  "items": [
+                    {
+                      "title": "MacOS .NET Applications Injection",
+                      "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-.net-applications-injection.md",
+                      "items": [
+                        {
+                          "title": "MacOS Chromium Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-chromium-injection.md"
+                        },
+                        {
+                          "title": "MacOS Dirty Nib",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-dirty-nib.md"
+                        },
+                        {
+                          "title": "MacOS Electron Applications Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-electron-applications-injection.md"
+                        },
+                        {
+                          "title": "MacOS Function Hooking",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-function-hooking.md"
+                        },
+                        {
+                          "title": "MacOS Java Apps Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-java-apps-injection.md"
+                        },
+                        {
+                          "title": "MacOS Perl Applications Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-perl-applications-injection.md"
+                        },
+                        {
+                          "title": "MacOS Python Applications Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-python-applications-injection.md"
+                        },
+                        {
+                          "title": "MacOS Ruby Applications Injection",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ruby-applications-injection.md"
+                        },
+                        {
+                          "title": "MacOS IPC Inter Process Communication",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/README.md",
+                          "items": [
+                            {
+                              "title": "MacOS MIG Mach Interface Generator",
+                              "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-mig-mach-interface-generator.md",
+                              "items": [
+                                {
+                                  "title": "MacOS Thread Injection Via Task Port",
+                                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-thread-injection-via-task-port.md"
+                                },
+                                {
+                                  "title": "MacOS XPC",
+                                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/README.md",
+                                  "items": [
+                                    {
+                                      "title": "MacOS XPC Authorization",
+                                      "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-authorization.md",
+                                      "items": [
+                                        {
+                                          "title": "MacOS XPC Connecting Process Check",
+                                          "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/README.md",
+                                          "items": [
+                                            {
+                                              "title": "MacOS PID Reuse",
+                                              "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-pid-reuse.md",
+                                              "items": [
+                                                {
+                                                  "title": "MacOS XPC Connection Get Audit Token Attack",
+                                                  "path": "macos-hardening/macos-security-and-privilege-escalation/macos-proces-abuse/macos-ipc-inter-process-communication/macos-xpc/macos-xpc-connecting-process-check/macos-xpc_connection_get_audit_token-attack.md"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "MacOS Architecture",
+                  "path": "macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/README.md",
+                  "items": [
+                    {
+                      "title": "MacOS IOKit",
+                      "path": "macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-iokit.md",
+                      "items": [
+                        {
+                          "title": "MacOS Kernel Extensions",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-kernel-extensions.md"
+                        },
+                        {
+                          "title": "MacOS Kernel Vulnerabilities",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-kernel-vulnerabilities.md"
+                        },
+                        {
+                          "title": "MacOS System Extensions",
+                          "path": "macos-hardening/macos-security-and-privilege-escalation/mac-os-architecture/macos-system-extensions.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mobile Pentesting",
+      "items": [
+        {
+          "title": "Android Checklist",
+          "path": "mobile-pentesting/android-checklist.md"
+        },
+        {
+          "title": "Cordova Apps",
+          "path": "mobile-pentesting/cordova-apps.md"
+        },
+        {
+          "title": "IOS Pentesting Checklist",
+          "path": "mobile-pentesting/ios-pentesting-checklist.md"
+        },
+        {
+          "title": "Xamarin Apps",
+          "path": "mobile-pentesting/xamarin-apps.md"
+        },
+        {
+          "title": "Android App Pentesting",
+          "path": "mobile-pentesting/android-app-pentesting/README.md",
+          "items": [
+            {
+              "title": "Accessibility Services Abuse",
+              "path": "mobile-pentesting/android-app-pentesting/accessibility-services-abuse.md",
+              "items": [
+                {
+                  "title": "Adb Commands",
+                  "path": "mobile-pentesting/android-app-pentesting/adb-commands.md"
+                },
+                {
+                  "title": "Android Anti Instrumentation And SSL Pinning Bypass",
+                  "path": "mobile-pentesting/android-app-pentesting/android-anti-instrumentation-and-ssl-pinning-bypass.md"
+                },
+                {
+                  "title": "Android Applications Basics",
+                  "path": "mobile-pentesting/android-app-pentesting/android-applications-basics.md"
+                },
+                {
+                  "title": "Android Task Hijacking",
+                  "path": "mobile-pentesting/android-app-pentesting/android-task-hijacking.md"
+                },
+                {
+                  "title": "Apk Decompilers",
+                  "path": "mobile-pentesting/android-app-pentesting/apk-decompilers.md"
+                },
+                {
+                  "title": "Avd Android Virtual Device",
+                  "path": "mobile-pentesting/android-app-pentesting/avd-android-virtual-device.md"
+                },
+                {
+                  "title": "Bypass Biometric Authentication Android",
+                  "path": "mobile-pentesting/android-app-pentesting/bypass-biometric-authentication-android.md"
+                },
+                {
+                  "title": "Content Protocol",
+                  "path": "mobile-pentesting/android-app-pentesting/content-protocol.md"
+                },
+                {
+                  "title": "Exploiting A Debuggeable Applciation",
+                  "path": "mobile-pentesting/android-app-pentesting/exploiting-a-debuggeable-applciation.md"
+                },
+                {
+                  "title": "Flutter",
+                  "path": "mobile-pentesting/android-app-pentesting/flutter.md"
+                },
+                {
+                  "title": "Google CTF 2018 Shall We Play A Game",
+                  "path": "mobile-pentesting/android-app-pentesting/google-ctf-2018-shall-we-play-a-game.md"
+                },
+                {
+                  "title": "In Memory Jni Shellcode Execution",
+                  "path": "mobile-pentesting/android-app-pentesting/in-memory-jni-shellcode-execution.md"
+                },
+                {
+                  "title": "Insecure In App Update RCE",
+                  "path": "mobile-pentesting/android-app-pentesting/insecure-in-app-update-rce.md"
+                },
+                {
+                  "title": "Install Burp Certificate",
+                  "path": "mobile-pentesting/android-app-pentesting/install-burp-certificate.md"
+                },
+                {
+                  "title": "Intent Injection",
+                  "path": "mobile-pentesting/android-app-pentesting/intent-injection.md"
+                },
+                {
+                  "title": "Make Apk Accept CA Certificate",
+                  "path": "mobile-pentesting/android-app-pentesting/make-apk-accept-ca-certificate.md"
+                },
+                {
+                  "title": "Manual Deobfuscation",
+                  "path": "mobile-pentesting/android-app-pentesting/manual-deobfuscation.md"
+                },
+                {
+                  "title": "React Native Application",
+                  "path": "mobile-pentesting/android-app-pentesting/react-native-application.md"
+                },
+                {
+                  "title": "Reversing Native Libraries",
+                  "path": "mobile-pentesting/android-app-pentesting/reversing-native-libraries.md"
+                },
+                {
+                  "title": "Shizuku Privileged API",
+                  "path": "mobile-pentesting/android-app-pentesting/shizuku-privileged-api.md"
+                },
+                {
+                  "title": "Smali Changes",
+                  "path": "mobile-pentesting/android-app-pentesting/smali-changes.md"
+                },
+                {
+                  "title": "Spoofing Your Location In Play Store",
+                  "path": "mobile-pentesting/android-app-pentesting/spoofing-your-location-in-play-store.md"
+                },
+                {
+                  "title": "Tapjacking",
+                  "path": "mobile-pentesting/android-app-pentesting/tapjacking.md"
+                },
+                {
+                  "title": "Webview Attacks",
+                  "path": "mobile-pentesting/android-app-pentesting/webview-attacks.md"
+                },
+                {
+                  "title": "Drozer Tutorial",
+                  "path": "mobile-pentesting/android-app-pentesting/drozer-tutorial/README.md",
+                  "items": [
+                    {
+                      "title": "Exploiting Content Providers",
+                      "path": "mobile-pentesting/android-app-pentesting/drozer-tutorial/exploiting-content-providers.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Frida Tutorial",
+                  "path": "mobile-pentesting/android-app-pentesting/frida-tutorial/README.md",
+                  "items": [
+                    {
+                      "title": "Frida Tutorial 1",
+                      "path": "mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-1.md",
+                      "items": [
+                        {
+                          "title": "Frida Tutorial 2",
+                          "path": "mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-2.md"
+                        },
+                        {
+                          "title": "Objection Tutorial",
+                          "path": "mobile-pentesting/android-app-pentesting/frida-tutorial/objection-tutorial.md"
+                        },
+                        {
+                          "title": "Owaspuncrackable 1",
+                          "path": "mobile-pentesting/android-app-pentesting/frida-tutorial/owaspuncrackable-1.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IOS Pentesting",
+          "path": "mobile-pentesting/ios-pentesting/README.md",
+          "items": [
+            {
+              "title": "Air Keyboard Remote Input Injection",
+              "path": "mobile-pentesting/ios-pentesting/air-keyboard-remote-input-injection.md",
+              "items": [
+                {
+                  "title": "Basic IOS Testing Operations",
+                  "path": "mobile-pentesting/ios-pentesting/basic-ios-testing-operations.md"
+                },
+                {
+                  "title": "Burp Configuration For IOS",
+                  "path": "mobile-pentesting/ios-pentesting/burp-configuration-for-ios.md"
+                },
+                {
+                  "title": "Extracting Entitlements From Compiled Application",
+                  "path": "mobile-pentesting/ios-pentesting/extracting-entitlements-from-compiled-application.md"
+                },
+                {
+                  "title": "Frida Configuration In IOS",
+                  "path": "mobile-pentesting/ios-pentesting/frida-configuration-in-ios.md"
+                },
+                {
+                  "title": "IOS App Extensions",
+                  "path": "mobile-pentesting/ios-pentesting/ios-app-extensions.md"
+                },
+                {
+                  "title": "IOS Basics",
+                  "path": "mobile-pentesting/ios-pentesting/ios-basics.md"
+                },
+                {
+                  "title": "IOS Custom URI Handlers Deeplinks Custom Schemes",
+                  "path": "mobile-pentesting/ios-pentesting/ios-custom-uri-handlers-deeplinks-custom-schemes.md"
+                },
+                {
+                  "title": "IOS Hooking With Objection",
+                  "path": "mobile-pentesting/ios-pentesting/ios-hooking-with-objection.md"
+                },
+                {
+                  "title": "IOS Pentesting Without Jailbreak",
+                  "path": "mobile-pentesting/ios-pentesting/ios-pentesting-without-jailbreak.md"
+                },
+                {
+                  "title": "IOS Protocol Handlers",
+                  "path": "mobile-pentesting/ios-pentesting/ios-protocol-handlers.md"
+                },
+                {
+                  "title": "IOS Serialisation And Encoding",
+                  "path": "mobile-pentesting/ios-pentesting/ios-serialisation-and-encoding.md"
+                },
+                {
+                  "title": "IOS Testing Environment",
+                  "path": "mobile-pentesting/ios-pentesting/ios-testing-environment.md"
+                },
+                {
+                  "title": "IOS UIActivity Sharing",
+                  "path": "mobile-pentesting/ios-pentesting/ios-uiactivity-sharing.md"
+                },
+                {
+                  "title": "IOS UIPasteboard",
+                  "path": "mobile-pentesting/ios-pentesting/ios-uipasteboard.md"
+                },
+                {
+                  "title": "IOS Universal Links",
+                  "path": "mobile-pentesting/ios-pentesting/ios-universal-links.md"
+                },
+                {
+                  "title": "IOS Webviews",
+                  "path": "mobile-pentesting/ios-pentesting/ios-webviews.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Network Services Pentesting",
+      "items": [
+        {
+          "title": "10000 Network Data Management Protocol NDMP",
+          "path": "network-services-pentesting/10000-network-data-management-protocol-ndmp.md"
+        },
+        {
+          "title": "1026 Pentesting Rusersd",
+          "path": "network-services-pentesting/1026-pentesting-rusersd.md"
+        },
+        {
+          "title": "1080 Pentesting Socks",
+          "path": "network-services-pentesting/1080-pentesting-socks.md"
+        },
+        {
+          "title": "1099 Pentesting Java RMI",
+          "path": "network-services-pentesting/1099-pentesting-java-rmi.md"
+        },
+        {
+          "title": "113 Pentesting Ident",
+          "path": "network-services-pentesting/113-pentesting-ident.md"
+        },
+        {
+          "title": "135 Pentesting Msrpc",
+          "path": "network-services-pentesting/135-pentesting-msrpc.md"
+        },
+        {
+          "title": "137 138 139 Pentesting Netbios",
+          "path": "network-services-pentesting/137-138-139-pentesting-netbios.md"
+        },
+        {
+          "title": "1414 Pentesting IBMmq",
+          "path": "network-services-pentesting/1414-pentesting-ibmmq.md"
+        },
+        {
+          "title": "1521 1522 1529 Pentesting Oracle Listener",
+          "path": "network-services-pentesting/1521-1522-1529-pentesting-oracle-listener.md"
+        },
+        {
+          "title": "15672 Pentesting Rabbitmq Management",
+          "path": "network-services-pentesting/15672-pentesting-rabbitmq-management.md"
+        },
+        {
+          "title": "1723 Pentesting PPTP",
+          "path": "network-services-pentesting/1723-pentesting-pptp.md"
+        },
+        {
+          "title": "1883 Pentesting MQTT Mosquitto",
+          "path": "network-services-pentesting/1883-pentesting-mqtt-mosquitto.md"
+        },
+        {
+          "title": "2375 Pentesting Docker",
+          "path": "network-services-pentesting/2375-pentesting-docker.md"
+        },
+        {
+          "title": "24007 24008 24009 49152 Pentesting Glusterfs",
+          "path": "network-services-pentesting/24007-24008-24009-49152-pentesting-glusterfs.md"
+        },
+        {
+          "title": "27017 27018 Mongodb",
+          "path": "network-services-pentesting/27017-27018-mongodb.md"
+        },
+        {
+          "title": "3128 Pentesting Squid",
+          "path": "network-services-pentesting/3128-pentesting-squid.md"
+        },
+        {
+          "title": "32100 UDP Pentesting PPPP CS2 P2P Cameras",
+          "path": "network-services-pentesting/32100-udp-pentesting-pppp-cs2-p2p-cameras.md"
+        },
+        {
+          "title": "3260 Pentesting Iscsi",
+          "path": "network-services-pentesting/3260-pentesting-iscsi.md"
+        },
+        {
+          "title": "3299 Pentesting Saprouter",
+          "path": "network-services-pentesting/3299-pentesting-saprouter.md"
+        },
+        {
+          "title": "3632 Pentesting Distcc",
+          "path": "network-services-pentesting/3632-pentesting-distcc.md"
+        },
+        {
+          "title": "3690 Pentesting Subversion SVN Server",
+          "path": "network-services-pentesting/3690-pentesting-subversion-svn-server.md"
+        },
+        {
+          "title": "3702 UDP Pentesting WS Discovery",
+          "path": "network-services-pentesting/3702-udp-pentesting-ws-discovery.md"
+        },
+        {
+          "title": "43 Pentesting Whois",
+          "path": "network-services-pentesting/43-pentesting-whois.md"
+        },
+        {
+          "title": "4369 Pentesting Erlang Port Mapper Daemon EPMD",
+          "path": "network-services-pentesting/4369-pentesting-erlang-port-mapper-daemon-epmd.md"
+        },
+        {
+          "title": "44134 Pentesting Tiller Helm",
+          "path": "network-services-pentesting/44134-pentesting-tiller-helm.md"
+        },
+        {
+          "title": "44818 Ethernetip",
+          "path": "network-services-pentesting/44818-ethernetip.md"
+        },
+        {
+          "title": "47808 UDP Bacnet",
+          "path": "network-services-pentesting/47808-udp-bacnet.md"
+        },
+        {
+          "title": "4786 Cisco Smart Install",
+          "path": "network-services-pentesting/4786-cisco-smart-install.md"
+        },
+        {
+          "title": "4840 Pentesting OPC UA",
+          "path": "network-services-pentesting/4840-pentesting-opc-ua.md"
+        },
+        {
+          "title": "49 Pentesting Tacacs+",
+          "path": "network-services-pentesting/49-pentesting-tacacs+.md"
+        },
+        {
+          "title": "5000 Pentesting Docker Registry",
+          "path": "network-services-pentesting/5000-pentesting-docker-registry.md"
+        },
+        {
+          "title": "50030 50060 50070 50075 50090 Pentesting Hadoop",
+          "path": "network-services-pentesting/50030-50060-50070-50075-50090-pentesting-hadoop.md"
+        },
+        {
+          "title": "512 Pentesting Rexec",
+          "path": "network-services-pentesting/512-pentesting-rexec.md"
+        },
+        {
+          "title": "515 Pentesting Line Printer Daemon LPD",
+          "path": "network-services-pentesting/515-pentesting-line-printer-daemon-lpd.md"
+        },
+        {
+          "title": "5353 UDP Multicast DNS MDNS",
+          "path": "network-services-pentesting/5353-udp-multicast-dns-mdns.md"
+        },
+        {
+          "title": "5439 Pentesting Redshift",
+          "path": "network-services-pentesting/5439-pentesting-redshift.md"
+        },
+        {
+          "title": "554 8554 Pentesting RTSP",
+          "path": "network-services-pentesting/554-8554-pentesting-rtsp.md"
+        },
+        {
+          "title": "5555 Android Debug Bridge",
+          "path": "network-services-pentesting/5555-android-debug-bridge.md"
+        },
+        {
+          "title": "5601 Pentesting Kibana",
+          "path": "network-services-pentesting/5601-pentesting-kibana.md"
+        },
+        {
+          "title": "5671 5672 Pentesting AMQP",
+          "path": "network-services-pentesting/5671-5672-pentesting-amqp.md"
+        },
+        {
+          "title": "584 Pentesting AFP",
+          "path": "network-services-pentesting/584-pentesting-afp.md"
+        },
+        {
+          "title": "5984 Pentesting Couchdb",
+          "path": "network-services-pentesting/5984-pentesting-couchdb.md"
+        },
+        {
+          "title": "5985 5986 Pentesting OMI",
+          "path": "network-services-pentesting/5985-5986-pentesting-omi.md"
+        },
+        {
+          "title": "5985 5986 Pentesting Winrm",
+          "path": "network-services-pentesting/5985-5986-pentesting-winrm.md"
+        },
+        {
+          "title": "6000 Pentesting X11",
+          "path": "network-services-pentesting/6000-pentesting-x11.md"
+        },
+        {
+          "title": "623 UDP IPMI",
+          "path": "network-services-pentesting/623-udp-ipmi.md"
+        },
+        {
+          "title": "6379 Pentesting Redis",
+          "path": "network-services-pentesting/6379-pentesting-redis.md"
+        },
+        {
+          "title": "69 UDP TFTP",
+          "path": "network-services-pentesting/69-udp-tftp.md"
+        },
+        {
+          "title": "7 TCP UDP Pentesting Echo",
+          "path": "network-services-pentesting/7-tcp-udp-pentesting-echo.md"
+        },
+        {
+          "title": "700 Pentesting EPP",
+          "path": "network-services-pentesting/700-pentesting-epp.md"
+        },
+        {
+          "title": "8009 Pentesting Apache Jserv Protocol AJP",
+          "path": "network-services-pentesting/8009-pentesting-apache-jserv-protocol-ajp.md"
+        },
+        {
+          "title": "8086 Pentesting Influxdb",
+          "path": "network-services-pentesting/8086-pentesting-influxdb.md"
+        },
+        {
+          "title": "8333 18333 38333 18444 Pentesting Bitcoin",
+          "path": "network-services-pentesting/8333-18333-38333-18444-pentesting-bitcoin.md"
+        },
+        {
+          "title": "873 Pentesting Rsync",
+          "path": "network-services-pentesting/873-pentesting-rsync.md"
+        },
+        {
+          "title": "9000 Pentesting Fastcgi",
+          "path": "network-services-pentesting/9000-pentesting-fastcgi.md"
+        },
+        {
+          "title": "9001 Pentesting Hsqldb",
+          "path": "network-services-pentesting/9001-pentesting-hsqldb.md"
+        },
+        {
+          "title": "9100 PJL",
+          "path": "network-services-pentesting/9100-pjl.md"
+        },
+        {
+          "title": "9200 Pentesting Elasticsearch",
+          "path": "network-services-pentesting/9200-pentesting-elasticsearch.md"
+        },
+        {
+          "title": "Cassandra",
+          "path": "network-services-pentesting/cassandra.md"
+        },
+        {
+          "title": "IPSec IKE VPN Pentesting",
+          "path": "network-services-pentesting/ipsec-ike-vpn-pentesting.md"
+        },
+        {
+          "title": "NFS Service Pentesting",
+          "path": "network-services-pentesting/nfs-service-pentesting.md"
+        },
+        {
+          "title": "Pentesting 264 Check Point Firewall 1",
+          "path": "network-services-pentesting/pentesting-264-check-point-firewall-1.md"
+        },
+        {
+          "title": "Pentesting 631 Internet Printing Protocol IPP",
+          "path": "network-services-pentesting/pentesting-631-internet-printing-protocol-ipp.md"
+        },
+        {
+          "title": "Pentesting Compaq HP Insight Manager",
+          "path": "network-services-pentesting/pentesting-compaq-hp-insight-manager.md"
+        },
+        {
+          "title": "Pentesting DNS",
+          "path": "network-services-pentesting/pentesting-dns.md"
+        },
+        {
+          "title": "Pentesting Finger",
+          "path": "network-services-pentesting/pentesting-finger.md"
+        },
+        {
+          "title": "Pentesting IMAP",
+          "path": "network-services-pentesting/pentesting-imap.md"
+        },
+        {
+          "title": "Pentesting IRC",
+          "path": "network-services-pentesting/pentesting-irc.md"
+        },
+        {
+          "title": "Pentesting JDWP Java Debug Wire Protocol",
+          "path": "network-services-pentesting/pentesting-jdwp-java-debug-wire-protocol.md"
+        },
+        {
+          "title": "Pentesting LDAP",
+          "path": "network-services-pentesting/pentesting-ldap.md"
+        },
+        {
+          "title": "Pentesting Modbus",
+          "path": "network-services-pentesting/pentesting-modbus.md"
+        },
+        {
+          "title": "Pentesting MySQL",
+          "path": "network-services-pentesting/pentesting-mysql.md"
+        },
+        {
+          "title": "Pentesting NTP",
+          "path": "network-services-pentesting/pentesting-ntp.md"
+        },
+        {
+          "title": "Pentesting POP",
+          "path": "network-services-pentesting/pentesting-pop.md"
+        },
+        {
+          "title": "Pentesting PostgreSQL",
+          "path": "network-services-pentesting/pentesting-postgresql.md"
+        },
+        {
+          "title": "Pentesting RDP",
+          "path": "network-services-pentesting/pentesting-rdp.md"
+        },
+        {
+          "title": "Pentesting Remote GDBserver",
+          "path": "network-services-pentesting/pentesting-remote-gdbserver.md"
+        },
+        {
+          "title": "Pentesting Rlogin",
+          "path": "network-services-pentesting/pentesting-rlogin.md"
+        },
+        {
+          "title": "Pentesting RPCbind",
+          "path": "network-services-pentesting/pentesting-rpcbind.md"
+        },
+        {
+          "title": "Pentesting RSH",
+          "path": "network-services-pentesting/pentesting-rsh.md"
+        },
+        {
+          "title": "Pentesting SAP",
+          "path": "network-services-pentesting/pentesting-sap.md"
+        },
+        {
+          "title": "Pentesting SSH",
+          "path": "network-services-pentesting/pentesting-ssh.md"
+        },
+        {
+          "title": "Pentesting Telnet",
+          "path": "network-services-pentesting/pentesting-telnet.md"
+        },
+        {
+          "title": "Pentesting VNC",
+          "path": "network-services-pentesting/pentesting-vnc.md"
+        },
+        {
+          "title": "Pentesting FTP",
+          "path": "network-services-pentesting/pentesting-ftp/README.md",
+          "items": [
+            {
+              "title": "FTP Bounce Attack",
+              "path": "network-services-pentesting/pentesting-ftp/ftp-bounce-attack.md",
+              "items": [
+                {
+                  "title": "FTP Bounce Download 2oftp File",
+                  "path": "network-services-pentesting/pentesting-ftp/ftp-bounce-download-2oftp-file.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting Kerberos 88",
+          "path": "network-services-pentesting/pentesting-kerberos-88/README.md",
+          "items": [
+            {
+              "title": "Harvesting Tickets From Linux",
+              "path": "network-services-pentesting/pentesting-kerberos-88/harvesting-tickets-from-linux.md",
+              "items": [
+                {
+                  "title": "Harvesting Tickets From Windows",
+                  "path": "network-services-pentesting/pentesting-kerberos-88/harvesting-tickets-from-windows.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting MSSQL Microsoft SQL Server",
+          "path": "network-services-pentesting/pentesting-mssql-microsoft-sql-server/README.md",
+          "items": [
+            {
+              "title": "Types Of MSSQL Users",
+              "path": "network-services-pentesting/pentesting-mssql-microsoft-sql-server/types-of-mssql-users.md"
+            }
+          ]
+        },
+        {
+          "title": "Pentesting SMB",
+          "path": "network-services-pentesting/pentesting-smb/README.md",
+          "items": [
+            {
+              "title": "Ksmbd Attack Surface And Fuzzing Syzkaller",
+              "path": "network-services-pentesting/pentesting-smb/ksmbd-attack-surface-and-fuzzing-syzkaller.md",
+              "items": [
+                {
+                  "title": "Rpcclient Enumeration",
+                  "path": "network-services-pentesting/pentesting-smb/rpcclient-enumeration.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting SMTP",
+          "path": "network-services-pentesting/pentesting-smtp/README.md",
+          "items": [
+            {
+              "title": "SMTP Commands",
+              "path": "network-services-pentesting/pentesting-smtp/smtp-commands.md",
+              "items": [
+                {
+                  "title": "SMTP Smuggling",
+                  "path": "network-services-pentesting/pentesting-smtp/smtp-smuggling.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting SNMP",
+          "path": "network-services-pentesting/pentesting-snmp/README.md",
+          "items": [
+            {
+              "title": "Cisco SNMP",
+              "path": "network-services-pentesting/pentesting-snmp/cisco-snmp.md",
+              "items": [
+                {
+                  "title": "SNMP RCE",
+                  "path": "network-services-pentesting/pentesting-snmp/snmp-rce.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting VOIP",
+          "path": "network-services-pentesting/pentesting-voip/README.md",
+          "items": [
+            {
+              "title": "Basic VOIP Protocols",
+              "path": "network-services-pentesting/pentesting-voip/basic-voip-protocols/README.md",
+              "items": [
+                {
+                  "title": "SIP Session Initiation Protocol",
+                  "path": "network-services-pentesting/pentesting-voip/basic-voip-protocols/sip-session-initiation-protocol.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pentesting Web",
+          "path": "network-services-pentesting/pentesting-web/README.md",
+          "items": [
+            {
+              "title": "403 And 401 Bypasses",
+              "path": "network-services-pentesting/pentesting-web/403-and-401-bypasses.md",
+              "items": [
+                {
+                  "title": "AEM Adobe Experience Cloud",
+                  "path": "network-services-pentesting/pentesting-web/aem-adobe-experience-cloud.md"
+                },
+                {
+                  "title": "Angular",
+                  "path": "network-services-pentesting/pentesting-web/angular.md"
+                },
+                {
+                  "title": "Apache",
+                  "path": "network-services-pentesting/pentesting-web/apache.md"
+                },
+                {
+                  "title": "Artifactory Hacking Guide",
+                  "path": "network-services-pentesting/pentesting-web/artifactory-hacking-guide.md"
+                },
+                {
+                  "title": "Bolt CMS",
+                  "path": "network-services-pentesting/pentesting-web/bolt-cms.md"
+                },
+                {
+                  "title": "CGI",
+                  "path": "network-services-pentesting/pentesting-web/cgi.md"
+                },
+                {
+                  "title": "Code Review Tools",
+                  "path": "network-services-pentesting/pentesting-web/code-review-tools.md"
+                },
+                {
+                  "title": "Django",
+                  "path": "network-services-pentesting/pentesting-web/django.md"
+                },
+                {
+                  "title": "Dotnetnuke DNN",
+                  "path": "network-services-pentesting/pentesting-web/dotnetnuke-dnn.md"
+                },
+                {
+                  "title": "Flask",
+                  "path": "network-services-pentesting/pentesting-web/flask.md"
+                },
+                {
+                  "title": "Git",
+                  "path": "network-services-pentesting/pentesting-web/git.md"
+                },
+                {
+                  "title": "Golang",
+                  "path": "network-services-pentesting/pentesting-web/golang.md"
+                },
+                {
+                  "title": "Grafana",
+                  "path": "network-services-pentesting/pentesting-web/grafana.md"
+                },
+                {
+                  "title": "GraphQL",
+                  "path": "network-services-pentesting/pentesting-web/graphql.md"
+                },
+                {
+                  "title": "H2 Java SQL Database",
+                  "path": "network-services-pentesting/pentesting-web/h2-java-sql-database.md"
+                },
+                {
+                  "title": "IIS Internet Information Services",
+                  "path": "network-services-pentesting/pentesting-web/iis-internet-information-services.md"
+                },
+                {
+                  "title": "ImageMagick Security",
+                  "path": "network-services-pentesting/pentesting-web/imagemagick-security.md"
+                },
+                {
+                  "title": "ISPConfig",
+                  "path": "network-services-pentesting/pentesting-web/ispconfig.md"
+                },
+                {
+                  "title": "JBoss",
+                  "path": "network-services-pentesting/pentesting-web/jboss.md"
+                },
+                {
+                  "title": "Jira",
+                  "path": "network-services-pentesting/pentesting-web/jira.md"
+                },
+                {
+                  "title": "Joomla",
+                  "path": "network-services-pentesting/pentesting-web/joomla.md"
+                },
+                {
+                  "title": "JSP",
+                  "path": "network-services-pentesting/pentesting-web/jsp.md"
+                },
+                {
+                  "title": "Laravel",
+                  "path": "network-services-pentesting/pentesting-web/laravel.md"
+                },
+                {
+                  "title": "Microsoft Sharepoint",
+                  "path": "network-services-pentesting/pentesting-web/microsoft-sharepoint.md"
+                },
+                {
+                  "title": "Moodle",
+                  "path": "network-services-pentesting/pentesting-web/moodle.md"
+                },
+                {
+                  "title": "Nextjs",
+                  "path": "network-services-pentesting/pentesting-web/nextjs.md"
+                },
+                {
+                  "title": "Nginx",
+                  "path": "network-services-pentesting/pentesting-web/nginx.md"
+                },
+                {
+                  "title": "Nodejs Express",
+                  "path": "network-services-pentesting/pentesting-web/nodejs-express.md"
+                },
+                {
+                  "title": "Perl Tricks",
+                  "path": "network-services-pentesting/pentesting-web/perl-tricks.md"
+                },
+                {
+                  "title": "Prestashop",
+                  "path": "network-services-pentesting/pentesting-web/prestashop.md"
+                },
+                {
+                  "title": "PUT Method WebDAV",
+                  "path": "network-services-pentesting/pentesting-web/put-method-webdav.md"
+                },
+                {
+                  "title": "Python",
+                  "path": "network-services-pentesting/pentesting-web/python.md"
+                },
+                {
+                  "title": "Rocket Chat",
+                  "path": "network-services-pentesting/pentesting-web/rocket-chat.md"
+                },
+                {
+                  "title": "Ruby Tricks",
+                  "path": "network-services-pentesting/pentesting-web/ruby-tricks.md"
+                },
+                {
+                  "title": "Special HTTP Headers",
+                  "path": "network-services-pentesting/pentesting-web/special-http-headers.md"
+                },
+                {
+                  "title": "Spring Actuators",
+                  "path": "network-services-pentesting/pentesting-web/spring-actuators.md"
+                },
+                {
+                  "title": "Symphony",
+                  "path": "network-services-pentesting/pentesting-web/symphony.md"
+                },
+                {
+                  "title": "Telerik UI Aspnet Ajax Unsafe Reflection Webresource Axd",
+                  "path": "network-services-pentesting/pentesting-web/telerik-ui-aspnet-ajax-unsafe-reflection-webresource-axd.md"
+                },
+                {
+                  "title": "Uncovering Cloudflare",
+                  "path": "network-services-pentesting/pentesting-web/uncovering-cloudflare.md"
+                },
+                {
+                  "title": "VMware ESX VCenter....",
+                  "path": "network-services-pentesting/pentesting-web/vmware-esx-vcenter....md"
+                },
+                {
+                  "title": "Vuejs",
+                  "path": "network-services-pentesting/pentesting-web/vuejs.md"
+                },
+                {
+                  "title": "Web API Pentesting",
+                  "path": "network-services-pentesting/pentesting-web/web-api-pentesting.md"
+                },
+                {
+                  "title": "Werkzeug",
+                  "path": "network-services-pentesting/pentesting-web/werkzeug.md"
+                },
+                {
+                  "title": "Wordpress",
+                  "path": "network-services-pentesting/pentesting-web/wordpress.md"
+                },
+                {
+                  "title": "WSGI",
+                  "path": "network-services-pentesting/pentesting-web/wsgi.md"
+                },
+                {
+                  "title": "Zabbix",
+                  "path": "network-services-pentesting/pentesting-web/zabbix.md"
+                },
+                {
+                  "title": "Buckets",
+                  "path": "network-services-pentesting/pentesting-web/buckets/README.md",
+                  "items": [
+                    {
+                      "title": "Firebase Database",
+                      "path": "network-services-pentesting/pentesting-web/buckets/firebase-database.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Drupal",
+                  "path": "network-services-pentesting/pentesting-web/drupal/README.md",
+                  "items": [
+                    {
+                      "title": "Drupal RCE",
+                      "path": "network-services-pentesting/pentesting-web/drupal/drupal-rce.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "Electron Desktop Apps",
+                  "path": "network-services-pentesting/pentesting-web/electron-desktop-apps/README.md",
+                  "items": [
+                    {
+                      "title": "Electron Contextisolation RCE Via Electron Internal Code",
+                      "path": "network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-electron-internal-code.md",
+                      "items": [
+                        {
+                          "title": "Electron Contextisolation RCE Via IPC",
+                          "path": "network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-ipc.md"
+                        },
+                        {
+                          "title": "Electron Contextisolation RCE Via Preload Code",
+                          "path": "network-services-pentesting/pentesting-web/electron-desktop-apps/electron-contextisolation-rce-via-preload-code.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "PHP Tricks Esp",
+                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/README.md",
+                  "items": [
+                    {
+                      "title": "PHP RCE Abusing Object Creation New Usd Get A Usd Get B",
+                      "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-rce-abusing-object-creation-new-usd_get-a-usd_get-b.md",
+                      "items": [
+                        {
+                          "title": "PHP SSRF",
+                          "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-ssrf.md"
+                        },
+                        {
+                          "title": "PHP Useful Functions Disable Functions Open Basedir Bypass",
+                          "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/README.md",
+                          "items": [
+                            {
+                              "title": "Disable Functions Bypass Dl Function",
+                              "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-dl-function.md",
+                              "items": [
+                                {
+                                  "title": "Disable Functions Bypass Imagick Less Than 3.3.0 PHP Greater Than 5.4 Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-imagick-less-than-3.3.0-php-greater-than-5.4-exploit.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass Mod CGI",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-mod_cgi.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP 4 Greater Than 4.2.0 PHP 5 Pcntl Exec",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-4-greater-than-4.2.0-php-5-pcntl_exec.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP 5.2 Fopen Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2-fopen-exploit.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP 5.2.3 Win32std Ext Protections Bypass",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2.3-win32std-ext-protections-bypass.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP 5.2.4 And 5.2.5 PHP Curl",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-5.2.4-and-5.2.5-php-curl.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP 7.0 7.4 Nix Only",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-7.0-7.4-nix-only.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP FPM Fastcgi",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-fpm-fastcgi.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP Less Than 5.2.9 On Windows",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-less-than-5.2.9-on-windows.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP Perl Extension Safe Mode Bypass Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-perl-extension-safe_mode-bypass-exploit.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass PHP Safe Mode Bypass Via Proc Open And Custom Environment Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-php-safe_mode-bypass-via-proc_open-and-custom-environment-exploit.md"
+                                },
+                                {
+                                  "title": "Disable Functions Bypass Via Mem",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-bypass-via-mem.md"
+                                },
+                                {
+                                  "title": "Disable Functions PHP 5.2.4 Ioncube Extension Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-php-5.2.4-ioncube-extension-exploit.md"
+                                },
+                                {
+                                  "title": "Disable Functions PHP 5.x Shellshock Exploit",
+                                  "path": "network-services-pentesting/pentesting-web/php-tricks-esp/php-useful-functions-disable_functions-open_basedir-bypass/disable_functions-php-5.x-shellshock-exploit.md"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Sitecore",
+                  "path": "network-services-pentesting/pentesting-web/sitecore/README.md"
+                },
+                {
+                  "title": "Tomcat",
+                  "path": "network-services-pentesting/pentesting-web/tomcat/README.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pentesting Web",
+      "items": [
+        {
+          "title": "2FA Bypass",
+          "path": "pentesting-web/2fa-bypass.md"
+        },
+        {
+          "title": "Abusing Hop By Hop Headers",
+          "path": "pentesting-web/abusing-hop-by-hop-headers.md"
+        },
+        {
+          "title": "Account Takeover",
+          "path": "pentesting-web/account-takeover.md"
+        },
+        {
+          "title": "Bypass Payment Process",
+          "path": "pentesting-web/bypass-payment-process.md"
+        },
+        {
+          "title": "Captcha Bypass",
+          "path": "pentesting-web/captcha-bypass.md"
+        },
+        {
+          "title": "Clickjacking",
+          "path": "pentesting-web/clickjacking.md"
+        },
+        {
+          "title": "Client Side Path Traversal",
+          "path": "pentesting-web/client-side-path-traversal.md"
+        },
+        {
+          "title": "Client Side Template Injection CSTI",
+          "path": "pentesting-web/client-side-template-injection-csti.md"
+        },
+        {
+          "title": "Command Injection",
+          "path": "pentesting-web/command-injection.md"
+        },
+        {
+          "title": "CORS Bypass",
+          "path": "pentesting-web/cors-bypass.md"
+        },
+        {
+          "title": "CRLF 0D 0A",
+          "path": "pentesting-web/crlf-0d-0a.md"
+        },
+        {
+          "title": "CSRF Cross Site Request Forgery",
+          "path": "pentesting-web/csrf-cross-site-request-forgery.md"
+        },
+        {
+          "title": "Dapps DecentralizedApplications",
+          "path": "pentesting-web/dapps-DecentralizedApplications.md"
+        },
+        {
+          "title": "Dependency Confusion",
+          "path": "pentesting-web/dependency-confusion.md"
+        },
+        {
+          "title": "Domain Subdomain Takeover",
+          "path": "pentesting-web/domain-subdomain-takeover.md"
+        },
+        {
+          "title": "Email Injections",
+          "path": "pentesting-web/email-injections.md"
+        },
+        {
+          "title": "Formula CSV Doc Latex Ghostscript Injection",
+          "path": "pentesting-web/formula-csv-doc-latex-ghostscript-injection.md"
+        },
+        {
+          "title": "GRPC Web Pentest",
+          "path": "pentesting-web/grpc-web-pentest.md"
+        },
+        {
+          "title": "H2C Smuggling",
+          "path": "pentesting-web/h2c-smuggling.md"
+        },
+        {
+          "title": "Hacking JWT JSON Web Tokens",
+          "path": "pentesting-web/hacking-jwt-json-web-tokens.md"
+        },
+        {
+          "title": "HTTP Connection Contamination",
+          "path": "pentesting-web/http-connection-contamination.md"
+        },
+        {
+          "title": "HTTP Connection Request Smuggling",
+          "path": "pentesting-web/http-connection-request-smuggling.md"
+        },
+        {
+          "title": "HTTP Response Smuggling Desync",
+          "path": "pentesting-web/http-response-smuggling-desync.md"
+        },
+        {
+          "title": "IDOR",
+          "path": "pentesting-web/idor.md"
+        },
+        {
+          "title": "Iframe Traps",
+          "path": "pentesting-web/iframe-traps.md"
+        },
+        {
+          "title": "JSON XML YAML Hacking",
+          "path": "pentesting-web/json-xml-yaml-hacking.md"
+        },
+        {
+          "title": "LDAP Injection",
+          "path": "pentesting-web/ldap-injection.md"
+        },
+        {
+          "title": "Mass Assignment CWE 915",
+          "path": "pentesting-web/mass-assignment-cwe-915.md"
+        },
+        {
+          "title": "NoSQL Injection",
+          "path": "pentesting-web/nosql-injection.md"
+        },
+        {
+          "title": "OAuth To Account Takeover",
+          "path": "pentesting-web/oauth-to-account-takeover.md"
+        },
+        {
+          "title": "Open Redirect",
+          "path": "pentesting-web/open-redirect.md"
+        },
+        {
+          "title": "ORM Injection",
+          "path": "pentesting-web/orm-injection.md"
+        },
+        {
+          "title": "Parameter Pollution",
+          "path": "pentesting-web/parameter-pollution.md"
+        },
+        {
+          "title": "Phone Number Injections",
+          "path": "pentesting-web/phone-number-injections.md"
+        },
+        {
+          "title": "Proxy WAF Protections Bypass",
+          "path": "pentesting-web/proxy-waf-protections-bypass.md"
+        },
+        {
+          "title": "Race Condition",
+          "path": "pentesting-web/race-condition.md"
+        },
+        {
+          "title": "Rate Limit Bypass",
+          "path": "pentesting-web/rate-limit-bypass.md"
+        },
+        {
+          "title": "Registration Vulnerabilities",
+          "path": "pentesting-web/registration-vulnerabilities.md"
+        },
+        {
+          "title": "Regular Expression Denial Of Service ReDoS",
+          "path": "pentesting-web/regular-expression-denial-of-service-redos.md"
+        },
+        {
+          "title": "Reset Password",
+          "path": "pentesting-web/reset-password.md"
+        },
+        {
+          "title": "Reverse Tab Nabbing",
+          "path": "pentesting-web/reverse-tab-nabbing.md"
+        },
+        {
+          "title": "RSQL Injection",
+          "path": "pentesting-web/rsql-injection.md"
+        },
+        {
+          "title": "Server Side Inclusion Edge Side Inclusion Injection",
+          "path": "pentesting-web/server-side-inclusion-edge-side-inclusion-injection.md"
+        },
+        {
+          "title": "Timing Attacks",
+          "path": "pentesting-web/timing-attacks.md"
+        },
+        {
+          "title": "UUID Insecurities",
+          "path": "pentesting-web/uuid-insecurities.md"
+        },
+        {
+          "title": "Web Tool Wfuzz",
+          "path": "pentesting-web/web-tool-wfuzz.md"
+        },
+        {
+          "title": "Web Vulnerabilities Methodology",
+          "path": "pentesting-web/web-vulnerabilities-methodology.md"
+        },
+        {
+          "title": "Websocket Attacks",
+          "path": "pentesting-web/websocket-attacks.md"
+        },
+        {
+          "title": "XPath Injection",
+          "path": "pentesting-web/xpath-injection.md"
+        },
+        {
+          "title": "XS Search",
+          "path": "pentesting-web/xs-search.md"
+        },
+        {
+          "title": "XSLT Server Side Injection Extensible Stylesheet Language Transformations",
+          "path": "pentesting-web/xslt-server-side-injection-extensible-stylesheet-language-transformations.md"
+        },
+        {
+          "title": "XSSI Cross Site Script Inclusion",
+          "path": "pentesting-web/xssi-cross-site-script-inclusion.md"
+        },
+        {
+          "title": "XXE XEE XML External Entity",
+          "path": "pentesting-web/xxe-xee-xml-external-entity.md"
+        },
+        {
+          "title": "Browser Extension Pentesting Methodology",
+          "path": "pentesting-web/browser-extension-pentesting-methodology/README.md",
+          "items": [
+            {
+              "title": "Browext Clickjacking",
+              "path": "pentesting-web/browser-extension-pentesting-methodology/browext-clickjacking.md",
+              "items": [
+                {
+                  "title": "Browext Permissions And Host Permissions",
+                  "path": "pentesting-web/browser-extension-pentesting-methodology/browext-permissions-and-host_permissions.md"
+                },
+                {
+                  "title": "Browext XSS Example",
+                  "path": "pentesting-web/browser-extension-pentesting-methodology/browext-xss-example.md"
+                },
+                {
+                  "title": "Forced Extension Load Preferences Mac Forgery Windows",
+                  "path": "pentesting-web/browser-extension-pentesting-methodology/forced-extension-load-preferences-mac-forgery-windows.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cache Deception",
+          "path": "pentesting-web/cache-deception/README.md",
+          "items": [
+            {
+              "title": "Cache Poisoning To DOS",
+              "path": "pentesting-web/cache-deception/cache-poisoning-to-dos.md",
+              "items": [
+                {
+                  "title": "Cache Poisoning Via URL Discrepancies",
+                  "path": "pentesting-web/cache-deception/cache-poisoning-via-url-discrepancies.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Content Security Policy CSP Bypass",
+          "path": "pentesting-web/content-security-policy-csp-bypass/README.md",
+          "items": [
+            {
+              "title": "CSP Bypass Self + Unsafe Inline With Iframes",
+              "path": "pentesting-web/content-security-policy-csp-bypass/csp-bypass-self-+-unsafe-inline-with-iframes.md"
+            }
+          ]
+        },
+        {
+          "title": "Dangling Markup HTML Scriptless Injection",
+          "path": "pentesting-web/dangling-markup-html-scriptless-injection/README.md",
+          "items": [
+            {
+              "title": "SS Leaks",
+              "path": "pentesting-web/dangling-markup-html-scriptless-injection/ss-leaks.md"
+            }
+          ]
+        },
+        {
+          "title": "Deserialization",
+          "path": "pentesting-web/deserialization/README.md",
+          "items": [
+            {
+              "title": "Basic .NET Deserialization Objectdataprovider Gadgets Expandedwrapper And Json.net",
+              "path": "pentesting-web/deserialization/basic-.net-deserialization-objectdataprovider-gadgets-expandedwrapper-and-json.net.md",
+              "items": [
+                {
+                  "title": "Basic Java Deserialization Objectinputstream Readobject",
+                  "path": "pentesting-web/deserialization/basic-java-deserialization-objectinputstream-readobject.md"
+                },
+                {
+                  "title": "Exploiting __VIEWSTATE Knowing The Secret",
+                  "path": "pentesting-web/deserialization/exploiting-__viewstate-knowing-the-secret.md"
+                },
+                {
+                  "title": "Exploiting __VIEWSTATE Parameter",
+                  "path": "pentesting-web/deserialization/exploiting-__viewstate-parameter.md"
+                },
+                {
+                  "title": "Java DNS Deserialization And Gadgetprobe",
+                  "path": "pentesting-web/deserialization/java-dns-deserialization-and-gadgetprobe.md"
+                },
+                {
+                  "title": "Java JSF Viewstate .faces Deserialization",
+                  "path": "pentesting-web/deserialization/java-jsf-viewstate-.faces-deserialization.md"
+                },
+                {
+                  "title": "Java Signedobject Gated Deserialization",
+                  "path": "pentesting-web/deserialization/java-signedobject-gated-deserialization.md"
+                },
+                {
+                  "title": "Java Transformers To Rutime Exec Payload",
+                  "path": "pentesting-web/deserialization/java-transformers-to-rutime-exec-payload.md"
+                },
+                {
+                  "title": "JNDI Java Naming And Directory Interface And Log4shell",
+                  "path": "pentesting-web/deserialization/jndi-java-naming-and-directory-interface-and-log4shell.md"
+                },
+                {
+                  "title": "PHP Deserialization + Autoload Classes",
+                  "path": "pentesting-web/deserialization/php-deserialization-+-autoload-classes.md"
+                },
+                {
+                  "title": "Python YAML Deserialization",
+                  "path": "pentesting-web/deserialization/python-yaml-deserialization.md"
+                },
+                {
+                  "title": "Ruby Class Pollution",
+                  "path": "pentesting-web/deserialization/ruby-class-pollution.md"
+                },
+                {
+                  "title": "Ruby _json Pollution",
+                  "path": "pentesting-web/deserialization/ruby-_json-pollution.md"
+                },
+                {
+                  "title": "Nodejs Proto Prototype Pollution",
+                  "path": "pentesting-web/deserialization/nodejs-proto-prototype-pollution/README.md",
+                  "items": [
+                    {
+                      "title": "Client Side Prototype Pollution",
+                      "path": "pentesting-web/deserialization/nodejs-proto-prototype-pollution/client-side-prototype-pollution.md",
+                      "items": [
+                        {
+                          "title": "Express Prototype Pollution Gadgets",
+                          "path": "pentesting-web/deserialization/nodejs-proto-prototype-pollution/express-prototype-pollution-gadgets.md"
+                        },
+                        {
+                          "title": "Prototype Pollution To RCE",
+                          "path": "pentesting-web/deserialization/nodejs-proto-prototype-pollution/prototype-pollution-to-rce.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "File Inclusion",
+          "path": "pentesting-web/file-inclusion/README.md",
+          "items": [
+            {
+              "title": "Lfi2rce Via Compress.zlib + PHP Stream Prefer Studio + Path Disclosure",
+              "path": "pentesting-web/file-inclusion/lfi2rce-via-compress.zlib-+-php_stream_prefer_studio-+-path-disclosure.md",
+              "items": [
+                {
+                  "title": "Lfi2rce Via Eternal Waiting",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-eternal-waiting.md"
+                },
+                {
+                  "title": "Lfi2rce Via Nginx Temp Files",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-nginx-temp-files.md"
+                },
+                {
+                  "title": "Lfi2rce Via PHP Filters",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-php-filters.md"
+                },
+                {
+                  "title": "Lfi2rce Via PHPinfo",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-phpinfo.md"
+                },
+                {
+                  "title": "Lfi2rce Via Segmentation Fault",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-segmentation-fault.md"
+                },
+                {
+                  "title": "Lfi2rce Via Temp File Uploads",
+                  "path": "pentesting-web/file-inclusion/lfi2rce-via-temp-file-uploads.md"
+                },
+                {
+                  "title": "Phar Deserialization",
+                  "path": "pentesting-web/file-inclusion/phar-deserialization.md"
+                },
+                {
+                  "title": "Via PHP Session Upload Progress",
+                  "path": "pentesting-web/file-inclusion/via-php_session_upload_progress.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "File Upload",
+          "path": "pentesting-web/file-upload/README.md",
+          "items": [
+            {
+              "title": "PDF Upload XXE And CORS Bypass",
+              "path": "pentesting-web/file-upload/pdf-upload-xxe-and-cors-bypass.md"
+            }
+          ]
+        },
+        {
+          "title": "Hacking With Cookies",
+          "path": "pentesting-web/hacking-with-cookies/README.md",
+          "items": [
+            {
+              "title": "Cookie Bomb",
+              "path": "pentesting-web/hacking-with-cookies/cookie-bomb.md",
+              "items": [
+                {
+                  "title": "Cookie Jar Overflow",
+                  "path": "pentesting-web/hacking-with-cookies/cookie-jar-overflow.md"
+                },
+                {
+                  "title": "Cookie Tossing",
+                  "path": "pentesting-web/hacking-with-cookies/cookie-tossing.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HTTP Request Smuggling",
+          "path": "pentesting-web/http-request-smuggling/README.md",
+          "items": [
+            {
+              "title": "Browser HTTP Request Smuggling",
+              "path": "pentesting-web/http-request-smuggling/browser-http-request-smuggling.md",
+              "items": [
+                {
+                  "title": "Request Smuggling In HTTP 2 Downgrades",
+                  "path": "pentesting-web/http-request-smuggling/request-smuggling-in-http-2-downgrades.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Login Bypass",
+          "path": "pentesting-web/login-bypass/README.md",
+          "items": [
+            {
+              "title": "SQL Login Bypass",
+              "path": "pentesting-web/login-bypass/sql-login-bypass.md"
+            }
+          ]
+        },
+        {
+          "title": "Pocs And Polygloths Cheatsheet",
+          "path": "pentesting-web/pocs-and-polygloths-cheatsheet/README.md",
+          "items": [
+            {
+              "title": "Web Vulns List",
+              "path": "pentesting-web/pocs-and-polygloths-cheatsheet/web-vulns-list.md"
+            }
+          ]
+        },
+        {
+          "title": "Postmessage Vulnerabilities",
+          "path": "pentesting-web/postmessage-vulnerabilities/README.md",
+          "items": [
+            {
+              "title": "Blocking Main Page To Steal Postmessage",
+              "path": "pentesting-web/postmessage-vulnerabilities/blocking-main-page-to-steal-postmessage.md",
+              "items": [
+                {
+                  "title": "Bypassing SOP With Iframes 1",
+                  "path": "pentesting-web/postmessage-vulnerabilities/bypassing-sop-with-iframes-1.md"
+                },
+                {
+                  "title": "Bypassing SOP With Iframes 2",
+                  "path": "pentesting-web/postmessage-vulnerabilities/bypassing-sop-with-iframes-2.md"
+                },
+                {
+                  "title": "Steal Postmessage Modifying Iframe Location",
+                  "path": "pentesting-web/postmessage-vulnerabilities/steal-postmessage-modifying-iframe-location.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SAML Attacks",
+          "path": "pentesting-web/saml-attacks/README.md",
+          "items": [
+            {
+              "title": "SAML Basics",
+              "path": "pentesting-web/saml-attacks/saml-basics.md"
+            }
+          ]
+        },
+        {
+          "title": "SQL Injection",
+          "path": "pentesting-web/sql-injection/README.md",
+          "items": [
+            {
+              "title": "Cypher Injection Neo4j",
+              "path": "pentesting-web/sql-injection/cypher-injection-neo4j.md",
+              "items": [
+                {
+                  "title": "MS Access SQL Injection",
+                  "path": "pentesting-web/sql-injection/ms-access-sql-injection.md"
+                },
+                {
+                  "title": "MSSQL Injection",
+                  "path": "pentesting-web/sql-injection/mssql-injection.md"
+                },
+                {
+                  "title": "Oracle Injection",
+                  "path": "pentesting-web/sql-injection/oracle-injection.md"
+                },
+                {
+                  "title": "SQLmap",
+                  "path": "pentesting-web/sql-injection/sqlmap.md"
+                },
+                {
+                  "title": "MySQL Injection",
+                  "path": "pentesting-web/sql-injection/mysql-injection/README.md",
+                  "items": [
+                    {
+                      "title": "MySQL SSRF",
+                      "path": "pentesting-web/sql-injection/mysql-injection/mysql-ssrf.md"
+                    }
+                  ]
+                },
+                {
+                  "title": "PostgreSQL Injection",
+                  "path": "pentesting-web/sql-injection/postgresql-injection/README.md",
+                  "items": [
+                    {
+                      "title": "Big Binary Files Upload PostgreSQL",
+                      "path": "pentesting-web/sql-injection/postgresql-injection/big-binary-files-upload-postgresql.md",
+                      "items": [
+                        {
+                          "title": "Dblink Lo Import Data Exfiltration",
+                          "path": "pentesting-web/sql-injection/postgresql-injection/dblink-lo_import-data-exfiltration.md"
+                        },
+                        {
+                          "title": "Network Privesc Port Scanner And NTLM Chanllenge Response Disclosure",
+                          "path": "pentesting-web/sql-injection/postgresql-injection/network-privesc-port-scanner-and-ntlm-chanllenge-response-disclosure.md"
+                        },
+                        {
+                          "title": "PL PGSQL Password Bruteforce",
+                          "path": "pentesting-web/sql-injection/postgresql-injection/pl-pgsql-password-bruteforce.md"
+                        },
+                        {
+                          "title": "RCE With PostgreSQL Extensions",
+                          "path": "pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-extensions.md"
+                        },
+                        {
+                          "title": "RCE With PostgreSQL Languages",
+                          "path": "pentesting-web/sql-injection/postgresql-injection/rce-with-postgresql-languages.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "SQLmap",
+                  "path": "pentesting-web/sql-injection/sqlmap/README.md",
+                  "items": [
+                    {
+                      "title": "Second Order Injection SQLmap",
+                      "path": "pentesting-web/sql-injection/sqlmap/second-order-injection-sqlmap.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SSRF Server Side Request Forgery",
+          "path": "pentesting-web/ssrf-server-side-request-forgery/README.md",
+          "items": [
+            {
+              "title": "Cloud SSRF",
+              "path": "pentesting-web/ssrf-server-side-request-forgery/cloud-ssrf.md",
+              "items": [
+                {
+                  "title": "SSRF Vulnerable Platforms",
+                  "path": "pentesting-web/ssrf-server-side-request-forgery/ssrf-vulnerable-platforms.md"
+                },
+                {
+                  "title": "URL Format Bypass",
+                  "path": "pentesting-web/ssrf-server-side-request-forgery/url-format-bypass.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "SSTI Server Side Template Injection",
+          "path": "pentesting-web/ssti-server-side-template-injection/README.md",
+          "items": [
+            {
+              "title": "EL Expression Language",
+              "path": "pentesting-web/ssti-server-side-template-injection/el-expression-language.md",
+              "items": [
+                {
+                  "title": "Jinja2 SSTI",
+                  "path": "pentesting-web/ssti-server-side-template-injection/jinja2-ssti.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unicode Injection",
+          "path": "pentesting-web/unicode-injection/README.md",
+          "items": [
+            {
+              "title": "Unicode Normalization",
+              "path": "pentesting-web/unicode-injection/unicode-normalization.md"
+            }
+          ]
+        },
+        {
+          "title": "XS Search",
+          "path": "pentesting-web/xs-search/README.md",
+          "items": [
+            {
+              "title": "Connection Pool By Destination Example",
+              "path": "pentesting-web/xs-search/connection-pool-by-destination-example.md",
+              "items": [
+                {
+                  "title": "Connection Pool Example",
+                  "path": "pentesting-web/xs-search/connection-pool-example.md"
+                },
+                {
+                  "title": "Cookie Bomb + Onerror XS Leak",
+                  "path": "pentesting-web/xs-search/cookie-bomb-+-onerror-xs-leak.md"
+                },
+                {
+                  "title": "Event Loop Blocking + Lazy Images",
+                  "path": "pentesting-web/xs-search/event-loop-blocking-+-lazy-images.md"
+                },
+                {
+                  "title": "Javascript Execution XS Leak",
+                  "path": "pentesting-web/xs-search/javascript-execution-xs-leak.md"
+                },
+                {
+                  "title": "Performance.now + Force Heavy Task",
+                  "path": "pentesting-web/xs-search/performance.now-+-force-heavy-task.md"
+                },
+                {
+                  "title": "Performance.now Example",
+                  "path": "pentesting-web/xs-search/performance.now-example.md"
+                },
+                {
+                  "title": "URL Max Length Client Side",
+                  "path": "pentesting-web/xs-search/url-max-length-client-side.md"
+                },
+                {
+                  "title": "CSS Injection",
+                  "path": "pentesting-web/xs-search/css-injection/README.md",
+                  "items": [
+                    {
+                      "title": "CSS Injection Code",
+                      "path": "pentesting-web/xs-search/css-injection/css-injection-code.md",
+                      "items": [
+                        {
+                          "title": "Less Code Injection",
+                          "path": "pentesting-web/xs-search/css-injection/less-code-injection.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "XSS Cross Site Scripting",
+          "path": "pentesting-web/xss-cross-site-scripting/README.md",
+          "items": [
+            {
+              "title": "Abusing Service Workers",
+              "path": "pentesting-web/xss-cross-site-scripting/abusing-service-workers.md",
+              "items": [
+                {
+                  "title": "Chrome Cache To XSS",
+                  "path": "pentesting-web/xss-cross-site-scripting/chrome-cache-to-xss.md"
+                },
+                {
+                  "title": "Debugging Client Side JS",
+                  "path": "pentesting-web/xss-cross-site-scripting/debugging-client-side-js.md"
+                },
+                {
+                  "title": "DOM Clobbering",
+                  "path": "pentesting-web/xss-cross-site-scripting/dom-clobbering.md"
+                },
+                {
+                  "title": "DOM Invader",
+                  "path": "pentesting-web/xss-cross-site-scripting/dom-invader.md"
+                },
+                {
+                  "title": "DOM XSS",
+                  "path": "pentesting-web/xss-cross-site-scripting/dom-xss.md"
+                },
+                {
+                  "title": "Iframes In XSS And CSP",
+                  "path": "pentesting-web/xss-cross-site-scripting/iframes-in-xss-and-csp.md"
+                },
+                {
+                  "title": "Integer Overflow",
+                  "path": "pentesting-web/xss-cross-site-scripting/integer-overflow.md"
+                },
+                {
+                  "title": "JS Hoisting",
+                  "path": "pentesting-web/xss-cross-site-scripting/js-hoisting.md"
+                },
+                {
+                  "title": "Other JS Tricks",
+                  "path": "pentesting-web/xss-cross-site-scripting/other-js-tricks.md"
+                },
+                {
+                  "title": "PDF Injection",
+                  "path": "pentesting-web/xss-cross-site-scripting/pdf-injection.md"
+                },
+                {
+                  "title": "Server Side XSS Dynamic PDF",
+                  "path": "pentesting-web/xss-cross-site-scripting/server-side-xss-dynamic-pdf.md"
+                },
+                {
+                  "title": "Shadow DOM",
+                  "path": "pentesting-web/xss-cross-site-scripting/shadow-dom.md"
+                },
+                {
+                  "title": "Sniff Leak",
+                  "path": "pentesting-web/xss-cross-site-scripting/sniff-leak.md"
+                },
+                {
+                  "title": "Some Same Origin Method Execution",
+                  "path": "pentesting-web/xss-cross-site-scripting/some-same-origin-method-execution.md"
+                },
+                {
+                  "title": "Steal Info JS",
+                  "path": "pentesting-web/xss-cross-site-scripting/steal-info-js.md"
+                },
+                {
+                  "title": "Wasm Linear Memory Template Overwrite XSS",
+                  "path": "pentesting-web/xss-cross-site-scripting/wasm-linear-memory-template-overwrite-xss.md"
+                },
+                {
+                  "title": "XSS In Markdown",
+                  "path": "pentesting-web/xss-cross-site-scripting/xss-in-markdown.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reversing",
+      "items": [
+        {
+          "title": "Common API Used In Malware",
+          "path": "reversing/common-api-used-in-malware.md"
+        },
+        {
+          "title": "Word Macros",
+          "path": "reversing/word-macros.md"
+        },
+        {
+          "title": "Reversing Tools Basic Methods",
+          "path": "reversing/reversing-tools-basic-methods/README.md",
+          "items": [
+            {
+              "title": "Blobrunner",
+              "path": "reversing/reversing-tools-basic-methods/blobrunner.md",
+              "items": [
+                {
+                  "title": "Cheat Engine",
+                  "path": "reversing/reversing-tools-basic-methods/cheat-engine.md"
+                },
+                {
+                  "title": "Satisfiability Modulo Theories SMT Z3",
+                  "path": "reversing/reversing-tools-basic-methods/satisfiability-modulo-theories-smt-z3.md"
+                },
+                {
+                  "title": "Angr",
+                  "path": "reversing/reversing-tools-basic-methods/angr/README.md",
+                  "items": [
+                    {
+                      "title": "Angr Examples",
+                      "path": "reversing/reversing-tools-basic-methods/angr/angr-examples.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TODO",
+      "items": [
+        {
+          "title": "Android Forensics",
+          "path": "todo/android-forensics.md"
+        },
+        {
+          "title": "Burp Suite",
+          "path": "todo/burp-suite.md"
+        },
+        {
+          "title": "Cookies Policy",
+          "path": "todo/cookies-policy.md"
+        },
+        {
+          "title": "Interesting HTTP",
+          "path": "todo/interesting-http.md"
+        },
+        {
+          "title": "Investment Terms",
+          "path": "todo/investment-terms.md"
+        },
+        {
+          "title": "More Tools",
+          "path": "todo/more-tools.md"
+        },
+        {
+          "title": "Online Platforms With API",
+          "path": "todo/online-platforms-with-api.md"
+        },
+        {
+          "title": "Other Web Tricks",
+          "path": "todo/other-web-tricks.md"
+        },
+        {
+          "title": "Post Exploitation",
+          "path": "todo/post-exploitation.md"
+        },
+        {
+          "title": "Rust Basics",
+          "path": "todo/rust-basics.md"
+        },
+        {
+          "title": "Stealing Sensitive Information Disclosure From A Web",
+          "path": "todo/stealing-sensitive-information-disclosure-from-a-web.md"
+        },
+        {
+          "title": "Test LLMs",
+          "path": "todo/test-llms.md"
+        },
+        {
+          "title": "Hardware Hacking",
+          "path": "todo/hardware-hacking/README.md",
+          "items": [
+            {
+              "title": "Fault Injection Attacks",
+              "path": "todo/hardware-hacking/fault_injection_attacks.md",
+              "items": [
+                {
+                  "title": "I2C",
+                  "path": "todo/hardware-hacking/i2c.md"
+                },
+                {
+                  "title": "JTAG",
+                  "path": "todo/hardware-hacking/jtag.md"
+                },
+                {
+                  "title": "Radio",
+                  "path": "todo/hardware-hacking/radio.md"
+                },
+                {
+                  "title": "Side Channel Analysis",
+                  "path": "todo/hardware-hacking/side_channel_analysis.md"
+                },
+                {
+                  "title": "SPI",
+                  "path": "todo/hardware-hacking/spi.md"
+                },
+                {
+                  "title": "UART",
+                  "path": "todo/hardware-hacking/uart.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Industrial Control Systems Hacking",
+          "path": "todo/industrial-control-systems-hacking/README.md",
+          "items": [
+            {
+              "title": "Modbus",
+              "path": "todo/industrial-control-systems-hacking/modbus.md"
+            }
+          ]
+        },
+        {
+          "title": "Radio Hacking",
+          "path": "todo/radio-hacking/README.md",
+          "items": [
+            {
+              "title": "Fissure The RF Framework",
+              "path": "todo/radio-hacking/fissure-the-rf-framework.md",
+              "items": [
+                {
+                  "title": "Ibutton",
+                  "path": "todo/radio-hacking/ibutton.md"
+                },
+                {
+                  "title": "Infrared",
+                  "path": "todo/radio-hacking/infrared.md"
+                },
+                {
+                  "title": "Low Power Wide Area Network",
+                  "path": "todo/radio-hacking/low-power-wide-area-network.md"
+                },
+                {
+                  "title": "Maxiprox Mobile Cloner",
+                  "path": "todo/radio-hacking/maxiprox-mobile-cloner.md"
+                },
+                {
+                  "title": "Pentesting BLE Bluetooth Low Energy",
+                  "path": "todo/radio-hacking/pentesting-ble-bluetooth-low-energy.md"
+                },
+                {
+                  "title": "Pentesting RFID",
+                  "path": "todo/radio-hacking/pentesting-rfid.md"
+                },
+                {
+                  "title": "Proxmark 3",
+                  "path": "todo/radio-hacking/proxmark-3.md"
+                },
+                {
+                  "title": "Sub GHZ RF",
+                  "path": "todo/radio-hacking/sub-ghz-rf.md"
+                },
+                {
+                  "title": "Flipper Zero",
+                  "path": "todo/radio-hacking/flipper-zero/README.md",
+                  "items": [
+                    {
+                      "title": "FZ 125khz RFID",
+                      "path": "todo/radio-hacking/flipper-zero/fz-125khz-rfid.md",
+                      "items": [
+                        {
+                          "title": "FZ Ibutton",
+                          "path": "todo/radio-hacking/flipper-zero/fz-ibutton.md"
+                        },
+                        {
+                          "title": "FZ Infrared",
+                          "path": "todo/radio-hacking/flipper-zero/fz-infrared.md"
+                        },
+                        {
+                          "title": "FZ NFC",
+                          "path": "todo/radio-hacking/flipper-zero/fz-nfc.md"
+                        },
+                        {
+                          "title": "FZ Sub GHZ",
+                          "path": "todo/radio-hacking/flipper-zero/fz-sub-ghz.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Welcome",
+      "items": [
+        {
+          "title": "About The Author",
+          "path": "welcome/about-the-author.md"
+        },
+        {
+          "title": "Hacktricks Values And FAQ",
+          "path": "welcome/hacktricks-values-and-faq.md"
+        }
+      ]
+    },
+    {
+      "title": "Windows Hardening",
+      "items": [
+        {
+          "title": "Authentication Credentials UAC And EFS",
+          "path": "windows-hardening/authentication-credentials-uac-and-efs.md"
+        },
+        {
+          "title": "AV Bypass",
+          "path": "windows-hardening/av-bypass.md"
+        },
+        {
+          "title": "Basic CMD For Pentesters",
+          "path": "windows-hardening/basic-cmd-for-pentesters.md"
+        },
+        {
+          "title": "Checklist Windows Privilege Escalation",
+          "path": "windows-hardening/checklist-windows-privilege-escalation.md"
+        },
+        {
+          "title": "Cobalt Strike",
+          "path": "windows-hardening/cobalt-strike.md"
+        },
+        {
+          "title": "Mythic",
+          "path": "windows-hardening/mythic.md"
+        },
+        {
+          "title": "Authentication Credentials UAC And EFS",
+          "path": "windows-hardening/authentication-credentials-uac-and-efs/README.md",
+          "items": [
+            {
+              "title": "UAC User Account Control",
+              "path": "windows-hardening/authentication-credentials-uac-and-efs/uac-user-account-control.md"
+            }
+          ]
+        },
+        {
+          "title": "Basic Powershell For Pentesters",
+          "path": "windows-hardening/basic-powershell-for-pentesters/README.md",
+          "items": [
+            {
+              "title": "PowerView",
+              "path": "windows-hardening/basic-powershell-for-pentesters/powerview.md"
+            }
+          ]
+        },
+        {
+          "title": "NTLM",
+          "path": "windows-hardening/ntlm/README.md",
+          "items": [
+            {
+              "title": "Places To Steal NTLM Creds",
+              "path": "windows-hardening/ntlm/places-to-steal-ntlm-creds.md"
+            }
+          ]
+        },
+        {
+          "title": "Stealing Credentials",
+          "path": "windows-hardening/stealing-credentials/README.md",
+          "items": [
+            {
+              "title": "Credentials Mimikatz",
+              "path": "windows-hardening/stealing-credentials/credentials-mimikatz.md",
+              "items": [
+                {
+                  "title": "Credentials Protections",
+                  "path": "windows-hardening/stealing-credentials/credentials-protections.md"
+                },
+                {
+                  "title": "WTS Impersonator",
+                  "path": "windows-hardening/stealing-credentials/wts-impersonator.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Windows Local Privilege Escalation",
+          "path": "windows-hardening/windows-local-privilege-escalation/README.md",
+          "items": [
+            {
+              "title": "Abusing Auto Updaters And IPC",
+              "path": "windows-hardening/windows-local-privilege-escalation/abusing-auto-updaters-and-ipc.md",
+              "items": [
+                {
+                  "title": "Access Tokens",
+                  "path": "windows-hardening/windows-local-privilege-escalation/access-tokens.md"
+                },
+                {
+                  "title": "ACLs DACLs SACLs ACEs",
+                  "path": "windows-hardening/windows-local-privilege-escalation/acls-dacls-sacls-aces.md"
+                },
+                {
+                  "title": "AppendData AddSubdirectory Permission Over Service Registry",
+                  "path": "windows-hardening/windows-local-privilege-escalation/appenddata-addsubdirectory-permission-over-service-registry.md"
+                },
+                {
+                  "title": "Arbitrary Kernel RW Token Theft",
+                  "path": "windows-hardening/windows-local-privilege-escalation/arbitrary-kernel-rw-token-theft.md"
+                },
+                {
+                  "title": "COM Hijacking",
+                  "path": "windows-hardening/windows-local-privilege-escalation/com-hijacking.md"
+                },
+                {
+                  "title": "Create MSI With Wix",
+                  "path": "windows-hardening/windows-local-privilege-escalation/create-msi-with-wix.md"
+                },
+                {
+                  "title": "DPAPI Extracting Passwords",
+                  "path": "windows-hardening/windows-local-privilege-escalation/dpapi-extracting-passwords.md"
+                },
+                {
+                  "title": "From High Integrity To System With Name Pipes",
+                  "path": "windows-hardening/windows-local-privilege-escalation/from-high-integrity-to-system-with-name-pipes.md"
+                },
+                {
+                  "title": "Integrity Levels",
+                  "path": "windows-hardening/windows-local-privilege-escalation/integrity-levels.md"
+                },
+                {
+                  "title": "Juicypotato",
+                  "path": "windows-hardening/windows-local-privilege-escalation/juicypotato.md"
+                },
+                {
+                  "title": "Leaked Handle Exploitation",
+                  "path": "windows-hardening/windows-local-privilege-escalation/leaked-handle-exploitation.md"
+                },
+                {
+                  "title": "MSI Wrapper",
+                  "path": "windows-hardening/windows-local-privilege-escalation/msi-wrapper.md"
+                },
+                {
+                  "title": "Named Pipe Client Impersonation",
+                  "path": "windows-hardening/windows-local-privilege-escalation/named-pipe-client-impersonation.md"
+                },
+                {
+                  "title": "Privilege Escalation Abusing Tokens",
+                  "path": "windows-hardening/windows-local-privilege-escalation/privilege-escalation-abusing-tokens.md"
+                },
+                {
+                  "title": "Privilege Escalation With Autorun Binaries",
+                  "path": "windows-hardening/windows-local-privilege-escalation/privilege-escalation-with-autorun-binaries.md"
+                },
+                {
+                  "title": "Roguepotato And Printspoofer",
+                  "path": "windows-hardening/windows-local-privilege-escalation/roguepotato-and-printspoofer.md"
+                },
+                {
+                  "title": "SeDebug + SeImpersonate Copy Token",
+                  "path": "windows-hardening/windows-local-privilege-escalation/sedebug-+-seimpersonate-copy-token.md"
+                },
+                {
+                  "title": "SeImpersonate From High To System",
+                  "path": "windows-hardening/windows-local-privilege-escalation/seimpersonate-from-high-to-system.md"
+                },
+                {
+                  "title": "SeManagevolume Perform Volume Maintenance Tasks",
+                  "path": "windows-hardening/windows-local-privilege-escalation/semanagevolume-perform-volume-maintenance-tasks.md"
+                },
+                {
+                  "title": "Service Triggers",
+                  "path": "windows-hardening/windows-local-privilege-escalation/service-triggers.md"
+                },
+                {
+                  "title": "Windows C Payloads",
+                  "path": "windows-hardening/windows-local-privilege-escalation/windows-c-payloads.md"
+                },
+                {
+                  "title": "DLL Hijacking",
+                  "path": "windows-hardening/windows-local-privilege-escalation/dll-hijacking/README.md",
+                  "items": [
+                    {
+                      "title": "Writable Sys Path + DLL Hijacking Privesc",
+                      "path": "windows-hardening/windows-local-privilege-escalation/dll-hijacking/writable-sys-path-+dll-hijacking-privesc.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lateral Movement",
+          "path": "windows-hardening/lateral-movement/README.md",
+          "items": [
+            {
+              "title": "Atexec",
+              "path": "windows-hardening/lateral-movement/atexec.md",
+              "items": [
+                {
+                  "title": "Dcomexec",
+                  "path": "windows-hardening/lateral-movement/dcomexec.md"
+                },
+                {
+                  "title": "Psexec And Winexec",
+                  "path": "windows-hardening/lateral-movement/psexec-and-winexec.md"
+                },
+                {
+                  "title": "Rdpexec",
+                  "path": "windows-hardening/lateral-movement/rdpexec.md"
+                },
+                {
+                  "title": "Scmexec",
+                  "path": "windows-hardening/lateral-movement/scmexec.md"
+                },
+                {
+                  "title": "Winrm",
+                  "path": "windows-hardening/lateral-movement/winrm.md"
+                },
+                {
+                  "title": "Wmiexec",
+                  "path": "windows-hardening/lateral-movement/wmiexec.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Active Directory Methodology",
+          "path": "windows-hardening/active-directory-methodology/README.md",
+          "items": [
+            {
+              "title": "Abusing AD MSSQL",
+              "path": "windows-hardening/active-directory-methodology/abusing-ad-mssql.md",
+              "items": [
+                {
+                  "title": "AD Certificates",
+                  "path": "windows-hardening/active-directory-methodology/ad-certificates.md"
+                },
+                {
+                  "title": "AD DNS Records",
+                  "path": "windows-hardening/active-directory-methodology/ad-dns-records.md"
+                },
+                {
+                  "title": "AD Information In Printers",
+                  "path": "windows-hardening/active-directory-methodology/ad-information-in-printers.md"
+                },
+                {
+                  "title": "ADWS Enumeration",
+                  "path": "windows-hardening/active-directory-methodology/adws-enumeration.md"
+                },
+                {
+                  "title": "ASREPRoast",
+                  "path": "windows-hardening/active-directory-methodology/asreproast.md"
+                },
+                {
+                  "title": "BadSuccessor DMSa Migration Abuse",
+                  "path": "windows-hardening/active-directory-methodology/badsuccessor-dmsa-migration-abuse.md"
+                },
+                {
+                  "title": "Bloodhound",
+                  "path": "windows-hardening/active-directory-methodology/bloodhound.md"
+                },
+                {
+                  "title": "Constrained Delegation",
+                  "path": "windows-hardening/active-directory-methodology/constrained-delegation.md"
+                },
+                {
+                  "title": "Custom SSP",
+                  "path": "windows-hardening/active-directory-methodology/custom-ssp.md"
+                },
+                {
+                  "title": "DCSHADOW",
+                  "path": "windows-hardening/active-directory-methodology/dcshadow.md"
+                },
+                {
+                  "title": "DCSync",
+                  "path": "windows-hardening/active-directory-methodology/dcsync.md"
+                },
+                {
+                  "title": "Diamond Ticket",
+                  "path": "windows-hardening/active-directory-methodology/diamond-ticket.md"
+                },
+                {
+                  "title": "DSRM Credentials",
+                  "path": "windows-hardening/active-directory-methodology/dsrm-credentials.md"
+                },
+                {
+                  "title": "External Forest Domain One Way Outbound",
+                  "path": "windows-hardening/active-directory-methodology/external-forest-domain-one-way-outbound.md"
+                },
+                {
+                  "title": "External Forest Domain Oneway Inbound",
+                  "path": "windows-hardening/active-directory-methodology/external-forest-domain-oneway-inbound.md"
+                },
+                {
+                  "title": "Golden DMSa GMSa",
+                  "path": "windows-hardening/active-directory-methodology/golden-dmsa-gmsa.md"
+                },
+                {
+                  "title": "Golden Ticket",
+                  "path": "windows-hardening/active-directory-methodology/golden-ticket.md"
+                },
+                {
+                  "title": "Kerberoast",
+                  "path": "windows-hardening/active-directory-methodology/kerberoast.md"
+                },
+                {
+                  "title": "Kerberos Authentication",
+                  "path": "windows-hardening/active-directory-methodology/kerberos-authentication.md"
+                },
+                {
+                  "title": "Kerberos Double Hop Problem",
+                  "path": "windows-hardening/active-directory-methodology/kerberos-double-hop-problem.md"
+                },
+                {
+                  "title": "Lansweeper Security",
+                  "path": "windows-hardening/active-directory-methodology/lansweeper-security.md"
+                },
+                {
+                  "title": "LAPS",
+                  "path": "windows-hardening/active-directory-methodology/laps.md"
+                },
+                {
+                  "title": "Over Pass The Hash Pass The Key",
+                  "path": "windows-hardening/active-directory-methodology/over-pass-the-hash-pass-the-key.md"
+                },
+                {
+                  "title": "Pass The Ticket",
+                  "path": "windows-hardening/active-directory-methodology/pass-the-ticket.md"
+                },
+                {
+                  "title": "Password Spraying",
+                  "path": "windows-hardening/active-directory-methodology/password-spraying.md"
+                },
+                {
+                  "title": "Printers Spooler Service Abuse",
+                  "path": "windows-hardening/active-directory-methodology/printers-spooler-service-abuse.md"
+                },
+                {
+                  "title": "PrintNightmare",
+                  "path": "windows-hardening/active-directory-methodology/printnightmare.md"
+                },
+                {
+                  "title": "Privileged Groups And Token Privileges",
+                  "path": "windows-hardening/active-directory-methodology/privileged-groups-and-token-privileges.md"
+                },
+                {
+                  "title": "RDP Sessions Abuse",
+                  "path": "windows-hardening/active-directory-methodology/rdp-sessions-abuse.md"
+                },
+                {
+                  "title": "Resource Based Constrained Delegation",
+                  "path": "windows-hardening/active-directory-methodology/resource-based-constrained-delegation.md"
+                },
+                {
+                  "title": "SCCM Management Point Relay SQL Policy Secrets",
+                  "path": "windows-hardening/active-directory-methodology/sccm-management-point-relay-sql-policy-secrets.md"
+                },
+                {
+                  "title": "Security Descriptors",
+                  "path": "windows-hardening/active-directory-methodology/security-descriptors.md"
+                },
+                {
+                  "title": "SID History Injection",
+                  "path": "windows-hardening/active-directory-methodology/sid-history-injection.md"
+                },
+                {
+                  "title": "Silver Ticket",
+                  "path": "windows-hardening/active-directory-methodology/silver-ticket.md"
+                },
+                {
+                  "title": "Skeleton Key",
+                  "path": "windows-hardening/active-directory-methodology/skeleton-key.md"
+                },
+                {
+                  "title": "TimeRoasting",
+                  "path": "windows-hardening/active-directory-methodology/TimeRoasting.md"
+                },
+                {
+                  "title": "Unconstrained Delegation",
+                  "path": "windows-hardening/active-directory-methodology/unconstrained-delegation.md"
+                },
+                {
+                  "title": "ACL Persistence Abuse",
+                  "path": "windows-hardening/active-directory-methodology/acl-persistence-abuse/README.md",
+                  "items": [
+                    {
+                      "title": "BadSuccessor",
+                      "path": "windows-hardening/active-directory-methodology/acl-persistence-abuse/BadSuccessor.md",
+                      "items": [
+                        {
+                          "title": "Shadow Credentials",
+                          "path": "windows-hardening/active-directory-methodology/acl-persistence-abuse/shadow-credentials.md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "AD Certificates",
+                  "path": "windows-hardening/active-directory-methodology/ad-certificates/README.md",
+                  "items": [
+                    {
+                      "title": "Account Persistence",
+                      "path": "windows-hardening/active-directory-methodology/ad-certificates/account-persistence.md",
+                      "items": [
+                        {
+                          "title": "Certificate Theft",
+                          "path": "windows-hardening/active-directory-methodology/ad-certificates/certificate-theft.md"
+                        },
+                        {
+                          "title": "Domain Escalation",
+                          "path": "windows-hardening/active-directory-methodology/ad-certificates/domain-escalation.md"
+                        },
+                        {
+                          "title": "Domain Persistence",
+                          "path": "windows-hardening/active-directory-methodology/ad-certificates/domain-persistence.md"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
