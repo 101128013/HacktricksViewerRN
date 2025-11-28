@@ -7,11 +7,13 @@ import React from 'react';
 import App from '../App';
 
 // Note: import explicitly to use the types shipped with jest.
-import {it} from '@jest/globals';
+import {it, beforeEach, afterEach, expect, jest} from '@jest/globals';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 import { Linking } from 'react-native';
+import { act } from 'react-test-renderer';
+import renderWithProviders, { renderWithProvidersAsync } from '../test-utils/renderWithProviders';
 
 jest.mock('@react-native-async-storage/async-storage', () =>
   require('@react-native-async-storage/async-storage/jest/async-storage-mock')
@@ -41,6 +43,22 @@ jest.mock('react-syntax-highlighter/dist/styles/hljs', () => ({
 
 console.log('Test Linking keys:', Object.keys(Linking || {}));
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+beforeEach(() => {
+  // Ensure linking doesn't throw by default
+  if (Linking && typeof Linking.getInitialURL === 'function') {
+    jest.spyOn(Linking, 'getInitialURL').mockResolvedValue(null as any);
+  }
+  if (Linking && typeof Linking.addEventListener === 'function') {
+    jest.spyOn(Linking, 'addEventListener').mockImplementation(() => ({ remove: jest.fn() } as any));
+  }
+});
+
+afterEach(() => {
+  jest.restoreAllMocks();
+});
+
+it('renders correctly', async () => {
+  const tree = await renderWithProvidersAsync(<App />);
+  expect(tree).toBeDefined();
+  tree.unmount();
 });

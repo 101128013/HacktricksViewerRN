@@ -40,7 +40,7 @@ const transformTocData = (items: any[], level = 0): TocItem[] => {
 const AppContent = ({ tocData }: { tocData: TocItem[] }) => {
   const { navigationState, dispatch } = useContext(NavigationContext);
   const { currentPath } = navigationState;
-  const isDarkMode = useColorScheme() === 'dark';
+  const isDarkMode = (typeof useColorScheme === 'function' ? useColorScheme() : 'light') === 'dark';
 
   // Handle Deep Linking
   useEffect(() => {
@@ -55,13 +55,15 @@ const AppContent = ({ tocData }: { tocData: TocItem[] }) => {
       }
     };
 
-    // Check for initial URL
-    Linking.getInitialURL().then((url) => {
-      if (url) handleDeepLink({ url });
-    });
+    // Check for initial URL (guards for test environments where Linking may be undefined)
+    if (Linking && typeof Linking.getInitialURL === 'function') {
+      Linking.getInitialURL().then((url) => {
+        if (url) handleDeepLink({ url });
+      });
+    }
 
     // Listen for incoming links
-    const subscription = Linking.addEventListener('url', handleDeepLink);
+    const subscription = (Linking && typeof Linking.addEventListener === 'function') ? Linking.addEventListener('url', handleDeepLink) : { remove: () => {} };
 
     return () => {
       subscription.remove();

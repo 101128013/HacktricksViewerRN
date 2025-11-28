@@ -7,10 +7,13 @@ const path = require('path');
  *
  * @type {import('metro-config').MetroConfig}
  */
+const defaultConfig = getDefaultConfig(__dirname);
+const defaultAssetExts = defaultConfig.resolver.assetExts || [];
+
 const config = {
   resolver: {
-    // Add support for additional asset types
-    assetExts: ['json', 'md'],
+    // Add support for additional asset types while preserving defaults
+    assetExts: [...defaultAssetExts, 'md'],
 
     // Include data directory for bundled content
     extraNodeModules: {
@@ -28,7 +31,18 @@ const config = {
     }),
 
     // Asset configuration for bundling
-    assetPlugins: ['react-native-asset-plugin'],
+    // Only include optional asset plugins if they are installed. The
+    // 'react-native-asset-plugin' reference is optional for some
+    // environments — avoid throwing when it's not present.
+    assetPlugins: (() => {
+      try {
+        // If the module resolves, include it; otherwise fallback to empty
+        require.resolve('react-native-asset-plugin');
+        return ['react-native-asset-plugin'];
+      } catch (e) {
+        return [];
+      }
+    })(),
   },
 
   watchFolders: [

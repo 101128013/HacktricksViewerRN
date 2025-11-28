@@ -109,32 +109,36 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
     };
 
     return {
-      text: (text: string) => {
-        if (!text) return text;
-
-        // Simple splitting for highlighting - in a real app, use a more robust parser
-        // to avoid breaking markdown syntax
-        let highlightedText: (string | React.ReactElement)[] = [text];
-
-        terms.forEach(term => {
-          highlightedText = highlightedText.flatMap(segment => {
-            if (typeof segment === 'string') {
-              const parts = segment.split(new RegExp(`(${term})`, 'gi'));
-              return parts.map((part, index) =>
-                part.toLowerCase() === term ? (
-                  <Text key={`${term}-${index}`} style={highlightStyle}>
-                    {part}
-                  </Text>
-                ) : (
-                  part
-                )
-              );
-            }
-            return [segment];
+      text: (input: string | (string | React.ReactElement)[]) => {
+        // Keep a global counter for this text invocation to ensure unique keys
+        let globalCounter = 0;
+        const highlightText = (text: string): (string | React.ReactElement)[] => {
+          if (!text) return [text];
+          let highlightedText: (string | React.ReactElement)[] = [text];
+          terms.forEach(term => {
+            highlightedText = highlightedText.flatMap(segment => {
+              if (typeof segment === 'string') {
+                const parts = segment.split(new RegExp(`(${term})`, 'gi'));
+                return parts.map((part) =>
+                  part.toLowerCase() === term ? (
+                    <Text key={`highlight-${term}-${globalCounter++}`} style={highlightStyle}>
+                      {part}
+                    </Text>
+                  ) : (
+                    part
+                  )
+                );
+              }
+              return [segment];
+            });
           });
-        });
+          return highlightedText;
+        };
 
-        return highlightedText;
+        if (Array.isArray(input)) {
+          return input.flatMap((segment) => typeof segment === 'string' ? highlightText(segment) : segment);
+        }
+        return highlightText(input as string);
       },
     };
   }, [searchHighlights?.terms]);
@@ -343,11 +347,50 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
     );
   }, [syntaxHighlighterStyle]);
 
+  // Normalize children coming from markdown parser so we never pass
+  // raw token objects directly into React elements.
+  const normalizeChildrenForRender = (children: any): string | (string | React.ReactElement)[] => {
+    // Simple primitives
+    if (children === null || children === undefined) return '';
+    if (typeof children === 'string' || typeof children === 'number') return String(children);
+
+    // React elements - keep as-is or clone with key when returning arrays
+    if (React.isValidElement(children)) return children;
+
+    // Arrays - flatten recursively
+    if (Array.isArray(children)) {
+      let counter = 0;
+      return children.flatMap((child) => {
+        if (typeof child === 'string' || typeof child === 'number') return String(child);
+        if (React.isValidElement(child)) {
+          // Clone to ensure a key exists when placed into an array of siblings
+          return React.cloneElement(child, { key: `md-el-${counter++}` });
+        }
+        if (child && typeof child === 'object') {
+          // Token-like object from a Markdown parser: prefer its content or flatten children
+          if (typeof child.content === 'string') return child.content;
+          if (child.children) return normalizeChildrenForRender(child.children);
+        }
+        return '';
+      });
+    }
+
+    // Objects - token shapes used by markdown parsers
+    if (typeof children === 'object') {
+      if (typeof children.content === 'string') return children.content;
+      if (children.children) return normalizeChildrenForRender(children.children);
+      return '';
+    }
+
+    return String(children);
+  };
+
   const renderParagraph = useMemo(() => (props: any) => {
     const { children } = props;
+    const normalized = normalizeChildrenForRender(children);
     const processedChildren = searchHighlights?.terms
-      ? highlightSearchTerms.text(String(children))
-      : children;
+      ? highlightSearchTerms.text(normalized)
+      : normalized;
 
     return (
       <Text style={markdownStyles.paragraph}>
@@ -358,9 +401,10 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
 
   const renderHeading = useMemo(() => (level: number) => (props: any) => {
     const { children } = props;
+    const normalized = normalizeChildrenForRender(children);
     const processedChildren = searchHighlights?.terms
-      ? highlightSearchTerms.text(String(children))
-      : children;
+      ? highlightSearchTerms.text(normalized)
+      : normalized;
 
     const headingStyle = markdownStyles[`heading${level}` as keyof typeof markdownStyles] as any;
 

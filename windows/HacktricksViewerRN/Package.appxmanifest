@@ -18,8 +18,7 @@
     <DisplayName>Hacktricks Documentation Viewer</DisplayName>
     <PublisherDisplayName>Hacktricks</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
-    <Description>Hacktricks is a free security educational platform for ethical hackers, penetration
-      testers, and cybersecurity professionals.</Description>
+    <Description>Hacktricks: offline docs viewer for security professionals.</Description>
   </Properties>
 
   <Dependencies>
@@ -39,7 +38,7 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="Hacktricks Documentation Viewer"
-        Description="Hacktricks is a free security educational platform for ethical hackers, penetration testers, and cybersecurity professionals."
+        Description="Hacktricks: offline docs viewer for security professionals."
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
