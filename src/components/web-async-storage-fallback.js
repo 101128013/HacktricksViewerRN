@@ -46,7 +46,10 @@ const AsyncStorage = {
 
   async multiGet(keys) {
     try {
-      return keys.map(key => [key, localStorage.getItem(key)]);
+      return keys.map(key => {
+        const value = localStorage.getItem(key);
+        return [key, value !== null ? value : null];
+      });
     } catch (error) {
       console.error('AsyncStorage multiGet error:', error);
       return [];
@@ -77,6 +80,9 @@ const AsyncStorage = {
 export default AsyncStorage;
 
 // Also export the useAsyncStorage hook for compatibility
+// Note: In a real implementation, this should use React.useMemo to avoid creating
+// new objects on every render, but since this is a fallback and the hook is rarely used,
+// we keep it simple. If performance issues arise, wrap the returned object in useMemo.
 export function useAsyncStorage(key) {
   return {
     getItem: () => AsyncStorage.getItem(key),
