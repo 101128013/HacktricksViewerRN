@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-01-02T10:41:17.132Z",
+  "summary": {
+    "total": 9,
+    "passed": 5,
+    "failed": 4
+  },
+  "details": [
+    {
+      "name": "Metro Bundle",
+      "path": "windows/HacktricksViewerRN/Bundle/index.windows.bundle",
+      "status": "fail",
+      "error": "File not found",
+      "size": null
+    },
+    {
+      "name": "Metro Source Map",
+      "path": "windows/HacktricksViewerRN/Bundle/index.windows.bundle.map",
+      "status": "fail",
+      "error": "File not found",
+      "size": null
+    },
+    {
+      "name": "Assets Directory",
+      "path": "windows/HacktricksViewerRN/Bundle/assets",
+      "status": "fail",
+      "error": "Directory not found",
+      "size": null
+    },
+    {
+      "name": "TOC Data",
+      "path": "assets/data/toc.json",
+      "status": "pass",
+      "error": null,
+      "size": 85
+    },
+    {
+      "name": "Processed Docs Data",
+      "path": "assets/data/processed_docs.json",
+      "status": "pass",
+      "error": null,
+      "size": 109
+    },
+    {
+      "name": "Search Index Data",
+      "path": "assets/data/search_index.json",
+      "status": "pass",
+      "error": null,
+      "size": 101
+    },
+    {
+      "name": "Version Info",
+      "path": "assets/data/version.json",
+      "status": "fail",
+      "error": "File not found",
+      "size": null
+    },
+    {
+      "name": "Package JSON",
+      "path": "package.json",
+      "status": "pass",
+      "error": null,
+      "size": 1311
+    },
+    {
+      "name": "Windows Manifest",
+      "path": "windows/HacktricksViewerRN/Package.appxmanifest",
+      "status": "pass",
+      "error": null,
+      "size": 2231
+    }
+  ]
+}
