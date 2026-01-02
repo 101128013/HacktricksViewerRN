@@ -15,7 +15,9 @@ module.exports = {
       'react-native$': 'react-native-web',
       'react-native-markdown-display': path.resolve(__dirname, 'src/components/web-markdown-fallback.js'),
       'react-native-syntax-highlighter': path.resolve(__dirname, 'src/components/web-syntax-fallback.js'),
+      '@react-native-async-storage/async-storage': path.resolve(__dirname, 'src/components/web-async-storage-fallback.js'),
     },
+    mainFields: ['browser', 'module', 'main'],
   },
   module: {
     rules: [

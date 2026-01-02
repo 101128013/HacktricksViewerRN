@@ -9,10 +9,7 @@ import { searchEngine } from './src/utils/miniSearchEngine';
 // Import data directly
 // In a production app, you might want to load this asynchronously or lazily
 import tocDataRaw from './data/toc.json';
-
-// Use require for the large JSON to avoid TS parsing overhead
-// The .d.ts file we added helps, but this is safer for the IDE performance
-const processedDocsRaw = require('./data/processed_docs.json');
+import processedDocsRaw from './data/processed_docs.json';
 
 // Types matching the component expectations
 interface TocItem {
