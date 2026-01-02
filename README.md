@@ -1,5 +1,13 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# 🌐 Live Website
+
+**The app is now available as a website!** Visit: [https://101128013.github.io/HacktricksViewerRN/](https://101128013.github.io/HacktricksViewerRN/)
+
+For deployment details, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+---
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -58,6 +66,23 @@ Now that you have successfully run the app, let's modify it.
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
+
+## Running as a Web App
+
+You can also run this app in a web browser:
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run web
+
+# Or build for production
+npm run build:web
+```
+
+The web version will be available at `http://localhost:3000`
 
 ### Now what?
 
