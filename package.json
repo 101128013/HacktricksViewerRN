@@ -1,6 +1,6 @@
 {
   "name": "HacktricksViewerRN",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -8,7 +8,13 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "windows": "react-native run-windows"
+    "windows": "react-native run-windows",
+    "prebuild": "npm run update-version && npm run bundle-data",
+    "update-version": "node scripts/update-version.js",
+    "bundle-data": "node scripts/bundle-data.js",
+    "validate-build": "node scripts/validate-build.js",
+    "bundle": "react-native bundle --platform windows --dev false --entry-file index.js --bundle-output windows/HacktricksViewerRN/Bundle/index.windows.bundle --assets-dest windows/HacktricksViewerRN/Bundle",
+    "prepare-bundle": "node -e \"const fs = require('fs'); const path = 'windows/HacktricksViewerRN/Bundle'; if (!fs.existsSync(path)) { fs.mkdirSync(path, { recursive: true }); console.log('Bundle directory created'); } else { console.log('Bundle directory exists'); }\""
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
@@ -41,5 +47,15 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "hacktricksVersion": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0,
+    "build": 3,
+    "string": "1.0.0.3",
+    "display": "1.0.3",
+    "gitHash": "6383ceb",
+    "timestamp": "2026-01-02T10:44:15.679Z"
   }
 }

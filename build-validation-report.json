@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-02T10:41:17.132Z",
+  "timestamp": "2026-01-02T10:44:22.341Z",
   "summary": {
     "total": 9,
-    "passed": 5,
-    "failed": 4
+    "passed": 6,
+    "failed": 3
   },
   "details": [
     {
@@ -51,16 +51,16 @@
     {
       "name": "Version Info",
       "path": "assets/data/version.json",
-      "status": "fail",
-      "error": "File not found",
-      "size": null
+      "status": "pass",
+      "error": null,
+      "size": 253
     },
     {
       "name": "Package JSON",
       "path": "package.json",
       "status": "pass",
       "error": null,
-      "size": 1311
+      "size": 2233
     },
     {
       "name": "Windows Manifest",

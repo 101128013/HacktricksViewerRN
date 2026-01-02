@@ -9,7 +9,7 @@
   <Identity
     Name="HacktricksViewerRN"
     Publisher="CN=Hacktricks"
-    Version="1.0.0.0" />
+    Version="1.0.0.3" />
 
   <mp:PhoneIdentity PhoneProductId="73f9816d-ae2d-41bf-b8c7-bfb70e4d3fe4"
     PhonePublisherId="00000000-0000-0000-0000-000000000000" />

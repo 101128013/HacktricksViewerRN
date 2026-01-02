@@ -72,3 +72,21 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Build artifacts
+windows/HacktricksViewerRN/Bundle/*.bundle
+windows/HacktricksViewerRN/Bundle/*.bundle.map
+windows/HacktricksViewerRN/Bundle/assets
+windows/HacktricksViewerRN/AppPackages/
+windows/*/BundleArtifacts/
+windows/*/bin/
+windows/*/obj/
+windows/x64/
+windows/ARM64/
+*.appx
+*.msix
+*.appxsym
+build-validation-report.json
+build-info.json
+msbuild.binlog
+

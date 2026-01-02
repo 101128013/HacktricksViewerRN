@@ -10,10 +10,8 @@ import App from '../App';
 import {it, beforeEach, afterEach, expect, jest} from '@jest/globals';
 
 // Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
 import { Linking } from 'react-native';
-import { act } from 'react-test-renderer';
-import renderWithProviders, { renderWithProvidersAsync } from '../test-utils/renderWithProviders';
+import { renderWithProvidersAsync } from '../test-utils/renderWithProviders';
 
 jest.mock('@react-native-async-storage/async-storage', () =>
   require('@react-native-async-storage/async-storage/jest/async-storage-mock')

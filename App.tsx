@@ -25,8 +25,10 @@ interface TocItem {
 
 // Transformer to convert raw TOC data to component format
 const transformTocData = (items: any[], level = 0): TocItem[] => {
-  if (!items) return [];
-  
+  if (!items) {
+    return [];
+  }
+
   return items.map((item, index) => ({
     id: item.path || `section-${level}-${index}-${item.title.replace(/\s+/g, '-')}`,
     title: item.title,
@@ -58,7 +60,9 @@ const AppContent = ({ tocData }: { tocData: TocItem[] }) => {
     // Check for initial URL (guards for test environments where Linking may be undefined)
     if (Linking && typeof Linking.getInitialURL === 'function') {
       Linking.getInitialURL().then((url) => {
-        if (url) handleDeepLink({ url });
+        if (url) {
+          handleDeepLink({ url });
+        }
       });
     }
 
@@ -73,7 +77,7 @@ const AppContent = ({ tocData }: { tocData: TocItem[] }) => {
   // Resolve content
   // processedDocsRaw is a dictionary where keys are paths
   const doc = currentPath ? (processedDocsRaw as any)[currentPath] : null;
-  
+
   // Default content if nothing selected
   const defaultContent = `
 # Welcome to Hacktricks Viewer
@@ -90,13 +94,13 @@ Select a topic from the sidebar to start reading.
   const content = doc ? doc.content : defaultContent;
 
   return (
-    <View style={[styles.splitView, { backgroundColor: isDarkMode ? '#1e1e1e' : '#ffffff' }]}>
-      <View style={[styles.sidebar, { borderColor: isDarkMode ? '#333' : '#e0e0e0' }]}>
+    <View style={[styles.splitView, isDarkMode ? styles.darkBackground : styles.lightBackground]}>
+      <View style={[styles.sidebar, isDarkMode ? styles.darkBorder : styles.lightBorder]}>
         <TableOfContents data={tocData} />
       </View>
       <View style={styles.main}>
-        <MarkdownRenderer 
-          content={content} 
+        <MarkdownRenderer
+          content={content}
           theme={{
             colors: {
               background: isDarkMode ? '#1e1e1e' : '#ffffff',
@@ -106,8 +110,8 @@ Select a topic from the sidebar to start reading.
             },
             fonts: {
               family: 'Segoe UI',
-              size: { small: 12, medium: 14, large: 16 }
-            }
+              size: { small: 12, medium: 14, large: 16 },
+            },
           }}
         />
       </View>
@@ -126,13 +130,14 @@ const App = () => {
       try {
         searchEngine.indexDocuments(processedDocsRaw);
       } catch (e) {
-        console.error("Failed to index documents", e);
+        console.error('Failed to index documents', e);
       }
     }, 1000);
 
     // Transform the data structure
     const rawSections = (tocDataRaw as any).sections || [];
-    
+
+
     const transformed = rawSections.flatMap((section: any) => {
       if (section.items && section.items.length > 0) {
         return [{
@@ -182,6 +187,18 @@ const styles = StyleSheet.create({
   },
   main: {
     flex: 1,
+  },
+  darkBackground: {
+    backgroundColor: '#1e1e1e',
+  },
+  lightBackground: {
+    backgroundColor: '#ffffff',
+  },
+  darkBorder: {
+    borderColor: '#333',
+  },
+  lightBorder: {
+    borderColor: '#e0e0e0',
   },
 });
 

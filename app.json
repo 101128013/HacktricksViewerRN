@@ -1,4 +1,15 @@
 {
   "name": "HacktricksViewerRN",
-  "displayName": "HacktricksViewerRN"
+  "displayName": "HacktricksViewerRN",
+  "version": "1.0.3",
+  "hacktricksVersion": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0,
+    "build": 3,
+    "string": "1.0.0.3",
+    "display": "1.0.3",
+    "gitHash": "6383ceb",
+    "timestamp": "2026-01-02T10:44:15.679Z"
+  }
 }

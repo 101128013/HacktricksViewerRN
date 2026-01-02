@@ -1,3 +1,4 @@
+/* eslint-env jest */
 // Jest setup file - keep it minimal to avoid breaking the re-exported react-native module
 // 1) Mock internal utilities (useColorScheme)
 // 2) Mock Linking internal path (so callers importing from react-native use mocked values)
