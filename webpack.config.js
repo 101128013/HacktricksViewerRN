@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'web-build'),
     filename: 'bundle.[contenthash].js',
-    publicPath: './',
+    publicPath: '/HacktricksViewerRN/',
   },
   resolve: {
     extensions: ['.web.js', '.web.tsx', '.web.ts', '.js', '.jsx', '.ts', '.tsx', '.json'],

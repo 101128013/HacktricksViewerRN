@@ -129,6 +129,7 @@ If automatic deployment doesn't trigger:
 - Content hash-based file naming for caching
 - Static asset copying for data files
 - Bundle size: 8.6 MB (main bundle)
+- Correct publicPath (`/HacktricksViewerRN/`) configured for GitHub Pages
 
 ### Known Limitations
 
@@ -239,6 +240,7 @@ After enabling GitHub Pages:
 - Wait 2-5 minutes after deployment
 - Clear browser cache
 - Check browser console for errors
+- Verify webpack publicPath matches repository name (`/HacktricksViewerRN/`)
 
 ## 📞 Support Resources
 
