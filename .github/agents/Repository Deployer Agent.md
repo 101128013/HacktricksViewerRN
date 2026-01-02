@@ -4,9 +4,9 @@
 # To make this agent available, merge this file into the default repository branch.
 # For format details, see: https://gh.io/customagents/config
 
-name:Repository Deployer Agent
+name: Repository Deployer Agent
 
-description:This agent reads through the repository to detect the framework, package manager, and build scripts, then runs the appropriate install and build commands to set up the application.
+description: This agent reads through the repository to detect the framework, package manager, and build scripts, then runs the appropriate install and build commands to set up the application.
 ​
 It configures any required runtime settings from standard config files or environment templates, validates the build output, and prepares static or server assets for hosting.
 ​
