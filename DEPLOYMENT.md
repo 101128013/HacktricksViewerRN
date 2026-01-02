@@ -83,6 +83,7 @@ HacktricksViewerRN/
 - Sets up aliases for React Native Web compatibility
 - Handles TypeScript and JSX transpilation
 - Copies static assets (data files)
+- Uses `publicPath: '/HacktricksViewerRN/'` for GitHub Pages deployment
 
 ### .github/workflows/deploy.yml
 - Defines CI/CD pipeline
